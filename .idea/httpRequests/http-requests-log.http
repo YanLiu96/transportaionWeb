@@ -1,0 +1,365 @@
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084903.200.json
+
+###
+
+DELETE http://localhost:3000/goods/106
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084150.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084142.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084138.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084132.200.json
+
+###
+
+DELETE http://localhost:3000/goods/106
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084109.404.html
+
+###
+
+DELETE http://localhost:3000/goods/106
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084048.404.html
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084039.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T084036.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083546.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083531.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083436.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083428.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083409.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083313.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083309.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083304.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083209.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083203.200.json
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T083057.404.html
+
+###
+
+GET http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T082943.200.json
+
+###
+
+POST http://localhost:3000/goods/12
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T082930.404.html
+
+###
+
+POST http://localhost:3000/goods/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T082921.404.html
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+<> 2018-10-02T082754.404.html
+
+###
+
+POST http://localhost:3000/goods
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":0,"goodsName":"books","Deliveryman":"Yan","goodsLocation":"Waterford"}
+
+###
+
+GET http://localhost:3000/senders
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-02T101316.200.json
+
+###
+
+GET http://localhost:3000/goods/101
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-02T101308.200.json
+
+###
+
+GET http://localhost:3000/goods/101
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-02T094218.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-01T034438.200.json
+
+###
+
+GET http://localhost:3000/goods/101
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-01T034320.200.json
+
+###
+
+GET http://localhost:3000/goods
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-01T034234.200.json
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/goods/findAll
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/goods/findAll
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/goods/findAll
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/goods
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/goods
+Accept: */*
+Cache-Control: no-cache
+
+###
+
