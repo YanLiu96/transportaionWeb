@@ -12,4 +12,15 @@ router.findAllReceivers = (req,res)=>{
     });
 }
 
+router.findOneReceiver = (req, res) => {
+
+    res.setHeader('Content-Type', 'application/json');
+
+    receivers.find({ "_id" : req.params.id },function(err, receivers) {
+        if(err)
+            res.json({ message: 'Receiver NOT Found!', errmsg : err } );
+        else
+            res.send(JSON.stringify(receivers,null,5));
+    });
+}
 module.exports = router;
