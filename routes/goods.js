@@ -1,9 +1,11 @@
 let goods = require('../models/goods')
 let express = require('express');
 let router = express.Router();
+let mongoose = require('mongoose');
 
-let mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/transportation')
+var mongodbUri = 'mongodb://YanLiu96:LY19961222..@ds125273.mlab.com:25273/heroku_v7q4gpdm';
+mongoose.connect(mongodbUri);
+
 let db = mongoose.connection;
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);

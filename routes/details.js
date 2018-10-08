@@ -25,36 +25,14 @@ router.findDetailsByID = (req, res) => {
 
 router.addDetails = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-    /*
     var details = new details();
-    details._id =req.body._id;
-    details.kind =req.body.kind;
-    details.good = {goodName:req.body.good.goodName,
-                    goodLocation:req.body.good.goodLocation,
-                    deliverman: req.body.good.deliverman,
-                    delivermanPhoneNumber:req.body.good.delivermanPhoneNumber
-    };
-    details.sender = {};
-    details.receiver ={};
-    details.freight = req.body.freight;
-    details.paymentType = req.body.paymentType;
-
-    details.save(function(err) {
+    details._id = req.body._id;
+    details.save(function (err) {
         if (err)
-            res.json({ message: 'details NOT Added!', errmsg : err } );
-        else{
-            res.json({ message: 'details Successfully Added!'});
+            res.json({message: 'Good NOT Added!', errmsg: err});
+        else
+            res.json({message: 'Good Successfully Added!',data:details});
     });
-  */
-    db.details.save({ _id : 10010,
-        kind : "Large goods",
-        good : { goodName : "Car", goodLocation : "in the highway road", deliverman : "d5", delivermanPhoneNumber : "111111111" },
-        sender : { senderName : "Yan Liu", senderPhoneNumber : "15261820009", senderLocation: "BeiJing" },
-        receiver : { receiverName : "David", receiverPhoneNumber : "434234235", receiverLocation : "XXXXXXX" },
-        freight : 1000,
-        paymentType : "bank card" }
-    );
 
 }
-
 module.exports = router;

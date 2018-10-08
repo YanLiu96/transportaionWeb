@@ -2,19 +2,23 @@ let mongoose = require('mongoose');
 let DetailsSchema = new mongoose.Schema({
         _id:Number,
         kind:String,
-        good:{
+       good: {
             goodName: String,
-            goodLocation:String,
-            deliverman: String},
-            delivermanPhoneNumber:String,
+            goodLocation: String,
+            deliverman: String,
+            delivermanPhoneNumber: String
+        },
         sender:{
             senderName: String,
             senderPhoneNumber: String,
-            senderLocation: String},
+            senderLocation: String
+        },
+
         receiver:{
             receiverName: String,
             receiverPhoneNumber: String,
-            receiverLocation: String},
+            receiverLocation: String
+        },
         freight:Number,
         paymentType:String
     },

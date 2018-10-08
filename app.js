@@ -39,7 +39,7 @@ app.post('/receivers',receivers.addReceiver);
 
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
-app.delete('/details',details.addDetails);
+app.post('/details',details.addDetails);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
