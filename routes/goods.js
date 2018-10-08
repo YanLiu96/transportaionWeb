@@ -36,4 +36,27 @@ router.findOneGood = (req, res) => {
     });
 }
 
+router.addGood = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    var good = new goods();
+    good._id = req.body._id;
+    good.goodsname = req.body.goodsname;
+    good.Deliveryman = req.body.Deliveryman;
+    good.goodsLocation =req.body.goodsLocation;
+
+    good.save(function(err) {
+        if (err)
+            res.json({ message: 'Good NOT Added!', errmsg : err } );
+        else
+            res.json({ message: 'Good Successfully Added!', data: good });
+    });
+}
+router.deleteGood = (req, res) => {
+    goods.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'GOOD NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Good Successfully Deleted!'});
+    });
+}
 module.exports = router;

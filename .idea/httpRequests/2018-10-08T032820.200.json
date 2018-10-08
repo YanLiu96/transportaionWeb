@@ -1,0 +1,10 @@
+{
+  "message": "Sender NOT Added!",
+  "errmsg": {
+    "driver": true,
+    "name": "MongoError",
+    "index": 0,
+    "code": 11000,
+    "errmsg": "E11000 duplicate key error collection: transportation.senders index: _id_ dup key: { : 1006 }"
+  }
+}
