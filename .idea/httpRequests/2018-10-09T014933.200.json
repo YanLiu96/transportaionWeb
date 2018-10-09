@@ -1,0 +1,9 @@
+{
+  "message": "Good Status Successfully Upvoted!",
+  "data": {
+    "_id": 10005,
+    "goodsName": "Car",
+    "deliveryman": "deliverymanWhoChange",
+    "goodsLocation": "arriving at aim city"
+  }
+}

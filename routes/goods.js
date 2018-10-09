@@ -61,4 +61,35 @@ router.deleteGood = (req, res) => {
             res.json({ message: 'Good Successfully Deleted!'});
     });
 }
+
+router.changeGoodLocation = (req, res) => {
+    goods.findById(req.params.id, function(err,goods) {
+        if (err)
+            res.json({ message: 'Good NOT Found!', errmsg : err } );
+        else {
+            goods.goodsLocation = "arriving at aim city";
+            goods.save(function (err) {
+                if (err)
+                    res.json({ message: 'Good Status NOT Change!', errmsg : err } );
+                else
+                    res.json({ message: 'Good Status Successfully Upvoted!', data: goods });
+            });
+        }
+    });
+}
+router.changeDeliveryman = (req, res) => {
+    goods.findById(req.params.id, function(err,goods) {
+        if (err)
+            res.json({ message: 'Good NOT Found!', errmsg : err } );
+        else {
+            goods.deliveryman = "deliverymanWhoChange";
+            goods.save(function (err) {
+                if (err)
+                    res.json({ message: 'Good Status NOT Change!', errmsg : err } );
+                else
+                    res.json({ message: 'Good Status Successfully Upvoted!', data: goods });
+            });
+        }
+    });
+}
 module.exports = router;

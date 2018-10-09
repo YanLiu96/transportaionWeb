@@ -1,9 +1,0 @@
-{
-  "message": "Sender Successfully Added!",
-  "data": {
-    "_id": 10002,
-    "sendersName": "Yin Wu Jiu Ge",
-    "senderPhoneNumber": "798668668",
-    "senderLocation": "china"
-  }
-}

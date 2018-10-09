@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 10001,
+    "goodsName": "IphoneX",
+    "deliveryman": "d1",
+    "goodsLocation": "In the road"
+  },
+  {
+    "_id": 10002,
+    "goodsName": "Mac Pro",
+    "deliveryman": "d2",
+    "goodsLocation": "In the transfer station"
+  },
+  {
+    "_id": 10003,
+    "goodsName": "AJ 1",
+    "deliveryman": "d3",
+    "goodsLocation": "In the pass station"
+  },
+  {
+    "_id": 10004,
+    "goodsName": "Superme",
+    "deliveryman": "d4",
+    "goodsLocation": "still not send"
+  },
+  {
+    "_id": 10005,
+    "goodsName": "Car",
+    "deliveryman": "truck-32323",
+    "goodsLocation": "in the highway road"
+  }
+]

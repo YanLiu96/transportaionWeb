@@ -27,7 +27,9 @@ app.use('/users', usersRouter);
 app.get('/goods',goods.findAllGoods);
 app.get('/goods/:id',goods.findOneGood);
 app.post('/goods',goods.addGood);
-app.delete('/goods/:id',goods.deleteGood);
+app.delete('/goods/:id',goods.deleteGood)
+app.put('/goods/:id/changeStatus', goods.changeGoodLocation);
+app.put('/goods/:id/changeDeliveryman',goods.changeDeliveryman);
 
 app.get('/senders',senders.findAllSenders);
 app.get('/senders/:id',senders.findOneSender);

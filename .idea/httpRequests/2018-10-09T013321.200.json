@@ -1,0 +1,10 @@
+{
+  "message": "Good NOT Added!",
+  "errmsg": {
+    "driver": true,
+    "name": "MongoError",
+    "index": 0,
+    "code": 11000,
+    "errmsg": "E11000 duplicate key error index: heroku_v7q4gpdm.goods.$_id_ dup key: { : 10005 }"
+  }
+}
