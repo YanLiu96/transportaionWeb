@@ -4,7 +4,7 @@ let SenderSchema = new mongoose.Schema({
         sendersName: String,
         senderPhoneNumber: String,
         senderLocation: String
-    },
+    },{versionKey:false},
     { collection: 'senders' });
 
 module.exports = mongoose.model('senders', SenderSchema);

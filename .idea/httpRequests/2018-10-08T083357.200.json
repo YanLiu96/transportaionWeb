@@ -1,9 +1,0 @@
-{
-  "message": "Good Successfully Added!",
-  "data": {
-    "_id": 11111,
-    "Deliveryman": "dd",
-    "goodsLocation": "WIT",
-    "__v": 0
-  }
-}

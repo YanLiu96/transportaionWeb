@@ -6,6 +6,7 @@ let mongoose = require('mongoose');
 var mongodbUri = 'mongodb://YanLiu96:LY19961222..@ds125273.mlab.com:25273/heroku_v7q4gpdm';
 mongoose.connect(mongodbUri);
 
+//mongoose.connect('mongodb://localhost:27017/donationsdb');
 let db = mongoose.connection;
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
@@ -42,10 +43,9 @@ router.addGood = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     var good = new goods();
     good._id = req.body._id;
-    good.goodsname = req.body.goodsname;
-    good.Deliveryman = req.body.Deliveryman;
+    good.goodsName = req.body.goodsName;
+    good.deliveryman = req.body.deliveryman;
     good.goodsLocation =req.body.goodsLocation;
-
     good.save(function(err) {
         if (err)
             res.json({ message: 'Good NOT Added!', errmsg : err } );

@@ -1,0 +1,9 @@
+{
+  "message": "receiver Successfully Added!",
+  "data": {
+    "_id": 10003,
+    "receiverName": "shabi",
+    "receiverPhoneNumber": "33333333",
+    "receiverLocation": "UK"
+  }
+}

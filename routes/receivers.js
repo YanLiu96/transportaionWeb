@@ -39,4 +39,13 @@ router.addReceiver = (req, res) => {
             res.json({ message: 'receiver Successfully Added!', data: receiver });
     });
 }
+
+router.deleteReceiver = (req, res) => {
+    receivers.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'Receiver NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Receiver Successfully Deleted!'});
+    });
+}
 module.exports = router;

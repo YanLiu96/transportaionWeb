@@ -1,0 +1,25 @@
+{
+  "message": "Details Successfully Added!",
+  "data": {
+    "good": {
+      "goodName": "Superme",
+      "goodLocation": "still not send",
+      "deliveryman": "d4",
+      "deliverymanPhoneNumber": "8888888"
+    },
+    "sender": {
+      "senderName": "Hellen",
+      "senderPhoneNumber": "11012121",
+      "senderLocation": "Waterford"
+    },
+    "receiver": {
+      "receiverName": "Xu Yue",
+      "receiverPhoneNumber": "4444444",
+      "receiverLocation": "River Walk bolic 2"
+    },
+    "_id": 10004,
+    "kind": "soft goods",
+    "freight": 33,
+    "paymentType": "freight collect"
+  }
+}

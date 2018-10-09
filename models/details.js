@@ -2,11 +2,11 @@ let mongoose = require('mongoose');
 let DetailsSchema = new mongoose.Schema({
         _id:Number,
         kind:String,
-       good: {
+        good: {
             goodName: String,
             goodLocation: String,
-            deliverman: String,
-            delivermanPhoneNumber: String
+            deliveryman: String,
+            deliverymanPhoneNumber: String
         },
         sender:{
             senderName: String,
@@ -21,7 +21,7 @@ let DetailsSchema = new mongoose.Schema({
         },
         freight:Number,
         paymentType:String
-    },
+},{versionKey:false},
     { collection: 'details' });
 
-module.exports = mongoose.model('details', DetailsSchema);
+module.exports = mongoose.model('Details', DetailsSchema);

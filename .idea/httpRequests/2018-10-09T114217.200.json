@@ -1,0 +1,9 @@
+{
+  "message": "Sender Successfully Added!",
+  "data": {
+    "_id": 10003,
+    "sendersName": "Bao Jie",
+    "senderPhoneNumber": "110",
+    "senderLocation": "Waterford"
+  }
+}

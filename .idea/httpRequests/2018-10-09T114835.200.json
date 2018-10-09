@@ -1,0 +1,9 @@
+{
+  "message": "receiver Successfully Added!",
+  "data": {
+    "_id": 10004,
+    "receiverName": "Xu Yue",
+    "receiverPhoneNumber": "4444444",
+    "receiverLocation": "River Walk bolic 2"
+  }
+}

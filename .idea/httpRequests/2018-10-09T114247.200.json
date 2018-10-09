@@ -1,0 +1,9 @@
+{
+  "message": "Sender Successfully Added!",
+  "data": {
+    "_id": 10005,
+    "sendersName": "Yan Liu",
+    "senderPhoneNumber": "15261820009",
+    "senderLocation": "BeiJing"
+  }
+}

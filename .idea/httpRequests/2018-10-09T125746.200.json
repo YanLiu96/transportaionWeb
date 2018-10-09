@@ -1,0 +1,24 @@
+[
+  {
+    "good": {
+      "goodName": "IphoneX",
+      "goodLocation": "In the road",
+      "deliveryman": "d1",
+      "deliverymanPhoneNumber": "123456"
+    },
+    "sender": {
+      "senderName": "Yan Liu",
+      "senderPhoneNumber": "08338401313",
+      "senderLocation": "ireland"
+    },
+    "receiver": {
+      "receiverName": "ads",
+      "receiverPhoneNumber": "11111111",
+      "receiverLocation": "French"
+    },
+    "_id": 10001,
+    "kind": "expensive good",
+    "freight": 100,
+    "paymentType": "Driect"
+  }
+]

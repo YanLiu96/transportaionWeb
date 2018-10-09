@@ -32,14 +32,17 @@ app.delete('/goods/:id',goods.deleteGood);
 app.get('/senders',senders.findAllSenders);
 app.get('/senders/:id',senders.findOneSender);
 app.post('/senders',senders.addSender);
+app.delete('/senders/:id',senders.deleteSender);
 
 app.get('/receivers',receivers.findAllReceivers);
 app.get('/receivers/:id',receivers.findOneReceiver);
 app.post('/receivers',receivers.addReceiver);
+app.delete('/receivers/:id',receivers.deleteReceiver);
 
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
 app.post('/details',details.addDetails);
+app.delete('/details/:id',details.deleteDetails);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

@@ -40,4 +40,13 @@ router.addSender = (req, res) => {
             res.json({ message: 'Sender Successfully Added!', data: sender });
     });
 }
+
+router.deleteSender = (req, res) => {
+    senders.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'Sender NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Sender Successfully Deleted!'});
+    });
+}
 module.exports = router;
