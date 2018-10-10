@@ -1,0 +1,9 @@
+{
+  "message": "Details Successfully Added!",
+  "data": {
+    "_id": 10005,
+    "kind": "Large goods",
+    "freight": 1000,
+    "paymentType": "bank card"
+  }
+}

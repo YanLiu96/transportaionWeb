@@ -1,0 +1,19 @@
+{
+  "message": "Details Successfully Added!",
+  "data": {
+    "_id": 10003,
+    "kind": "soft goods",
+    "goodName": "AJ 1",
+    "goodLocation": "In the pass station",
+    "deliveryman": "d3",
+    "deliverymanPhoneNumber": "AJ 1",
+    "senderName": "Bao Jie",
+    "senderPhoneNumber": "110",
+    "senderLocation": "Waterford",
+    "receiverName": "shabi",
+    "receiverPhoneNumber": "33333333",
+    "receiverLocation": "UK",
+    "freight": 20,
+    "paymentType": "Cash"
+  }
+}

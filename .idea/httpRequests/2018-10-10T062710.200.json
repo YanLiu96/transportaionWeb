@@ -1,0 +1,19 @@
+{
+  "message": "Details Successfully Added!",
+  "data": {
+    "_id": 10001,
+    "kind": "expensive good",
+    "goodName": "IphoneX",
+    "goodLocation": "In the road",
+    "deliveryman": "d1",
+    "deliverymanPhoneNumber": "IphoneX",
+    "senderName": "Yan Liu",
+    "senderPhoneNumber": "08338401313",
+    "senderLocation": "ireland",
+    "receiverName": "ads",
+    "receiverPhoneNumber": "11111111",
+    "receiverLocation": "French",
+    "freight": 100,
+    "paymentType": "Direct"
+  }
+}

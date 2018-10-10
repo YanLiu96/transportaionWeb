@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 10001,
+    "kind": "expensive good",
+    "freight": 100,
+    "paymentType": "Direct"
+  },
+  {
+    "_id": 10002,
+    "kind": "expensive good",
+    "freight": 150,
+    "paymentType": "Cash"
+  },
+  {
+    "_id": 10003,
+    "kind": "soft goods",
+    "freight": 20,
+    "paymentType": "Cash"
+  },
+  {
+    "_id": 10004,
+    "kind": "soft goods",
+    "freight": 33,
+    "paymentType": "freight collect"
+  },
+  {
+    "_id": 10005,
+    "kind": "Large goods",
+    "freight": 1000,
+    "paymentType": "bank card"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "message": "Details Successfully Added!",
+  "data": {
+    "_id": 10002,
+    "kind": "expensive good",
+    "freight": 150,
+    "paymentType": "Cash"
+  }
+}

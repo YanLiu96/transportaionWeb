@@ -10,6 +10,7 @@ const goods = require('./routes/goods');
 const senders = require('./routes/senders');
 const receivers = require('./routes/receivers');
 const details = require('./routes/details');
+const fuzzySearch = require('./routes/fuzzySearch');
 var app = express();
 
 // view engine setup
@@ -44,12 +45,13 @@ app.delete('/receivers/:id',receivers.deleteReceiver);
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
 app.post('/details',details.addDetails);
-app.delete('/details/:id',details.deleteDetails);
+app.delete('/details/:id',details.deleteDetails)
+
+app.get('/fuzzySearch/:keyword',fuzzySearch.kindFuzzySearch);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development

@@ -27,9 +27,20 @@ router.addDetails = (req, res) => {
     var details = new Details();
     details._id = req.body._id;
     details.kind =req.body.kind;
-    details.good =req.body.good;
-    details.sender = req.body.sender;
-    details.receiver = req.body.receiver;
+
+    details.goodName =req.body.goodName;
+    details.goodLocation =req.body.goodLocation;
+    details.deliveryman =req.body.deliveryman;
+    details.deliverymanPhoneNumber =req.body.goodName;
+
+    details.senderName = req.body.senderName;
+    details.senderPhoneNumber = req.body.senderPhoneNumber;
+    details.senderLocation = req.body.senderLocation;
+
+    details.receiverName = req.body.receiverName;
+    details.receiverPhoneNumber = req.body.receiverPhoneNumber;
+    details.receiverLocation = req.body.receiverLocation;
+
     details.freight = req.body.freight;
     details.paymentType = req.body.paymentType;
     details.save(function(err) {
@@ -48,4 +59,5 @@ router.deleteDetails = (req, res) => {
             res.json({ message: 'Details Successfully Deleted!'});
     });
 }
+
 module.exports = router;
