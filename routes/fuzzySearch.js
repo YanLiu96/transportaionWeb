@@ -2,6 +2,7 @@ let fuzzyDetails = require('../models/details')
 let express = require('express');
 let router = express.Router();
 router.kindFuzzySearch = (req,res)=>{
+    res.setHeader('Content-Type', 'application/json');
     var keyword = req.params.keyword;
     var _filter={
         $or: [  // 多字段同时匹配
