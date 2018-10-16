@@ -25,5 +25,24 @@ describe('Goods', function (){
                     done();
                 });
         });
+
+    });
+    describe('POST /goods', function () {
+        it('should return confirmation message', function(done) {
+            let good = {
+                _id: '131313' ,
+                goodsName: "testname",
+                deliveryman: "testdliveryname",
+                goodsLocation: "testlocation"
+            };
+            chai.request(server)
+                .post('/goods')
+                .send(good)
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('Good Successfully Added!' );
+                    done();
+                });
+        });
     });
 });
