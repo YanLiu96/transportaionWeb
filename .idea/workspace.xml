@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="109015f6-856f-411a-9b45-ee88ea73fc04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/goods-test.js" beforeDir="false" />
+>>>>>>> get-goods-test
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,12 +71,12 @@
     <session id="1297532411">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.3" value="8" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,16 +153,28 @@
         <entry file="file://$PROJECT_DIR$/routes/senders.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
+<<<<<<< HEAD
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> get-goods-test
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/goods-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/routes/goods-test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+>>>>>>> get-goods-test
             </state>
           </provider>
         </entry>
@@ -176,7 +191,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="1350">
               <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
             </state>
           </provider>
@@ -241,7 +256,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds">
+=======
   <component name="ProjectFrameBounds" extendedState="1">
+>>>>>>> get-goods-test
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -2062,12 +2081,21 @@
       <workItem from="1539190147527" duration="3788000" />
       <workItem from="1539195464520" duration="12000" />
       <workItem from="1539195715200" duration="261000" />
+<<<<<<< HEAD
+      <workItem from="1539680680469" duration="131000" />
+      <workItem from="1539681690578" duration="15000" />
+=======
       <workItem from="1539680680469" duration="579000" />
+>>>>>>> get-goods-test
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="65142000" />
+=======
     <option name="totallyTimeSpent" value="65490000" />
+>>>>>>> get-goods-test
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2086,7 +2114,11 @@
       <window_info id="npm" order="1" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49655172" visible="true" weight="0.14587738" />
       <window_info id="Structure" order="3" sideWeight="0.50344825" side_tool="true" weight="0.14587738" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2823366" />
+=======
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40751043" />
+>>>>>>> get-goods-test
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32823366" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -2297,13 +2329,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="1350">
           <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/senders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+>>>>>>> get-goods-test
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/goods-test.js">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -2328,6 +2378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+>>>>>>> get-goods-test
         </state>
       </provider>
     </entry>
