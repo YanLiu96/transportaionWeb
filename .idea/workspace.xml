@@ -2,16 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109015f6-856f-411a-9b45-ee88ea73fc04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2018-10-17T124949.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2018-10-17T125009.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2018-10-17T125019.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2018-10-17T125023.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2018-10-17T125029.200.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/routes/details-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060033.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060034-1.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060034-2.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060034.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060348.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060400.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T060435.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061058.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061102.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061104.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061105.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061107.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061110.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061115.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-10T061343.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/goods-test.js" beforeDir="false" />
->>>>>>> get-goods-test
-=======
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+      <change beforePath="$PROJECT_DIR$/routes/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/goods.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,14 +95,14 @@
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.3" value="8" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="http" value="2" />
-          <entry key="js" value="51" />
+          <entry key="js" value="50" />
           <entry key="name" value="1" />
           <entry key="www" value="1" />
           <entry key="xml" value="3" />
@@ -93,7 +110,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="51" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="3" />
@@ -103,14 +120,64 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="128" />
-          <entry key="JavaScript" value="2061" />
+          <entry key="JSON" value="116" />
+          <entry key="JavaScript" value="2045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2061" />
-          <entry key="json" value="128" />
+          <entry key="js" value="2045" />
+          <entry key="json" value="116" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1258966951">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-664586801">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -123,15 +190,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/fuzzySearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -143,11 +223,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -155,48 +235,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/senders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-=======
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
->>>>>>> get-goods-test
-=======
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+            <state relative-caret-position="285">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/goods-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-<<<<<<< HEAD
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/routes/goods-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
->>>>>>> get-goods-test
-=======
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="32">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -234,16 +283,15 @@
         <option value="$PROJECT_DIR$/models/receivers.js" />
         <option value="$PROJECT_DIR$/routes/senders.js" />
         <option value="$PROJECT_DIR$/routes/receivers.js" />
-        <option value="$PROJECT_DIR$/routes/goods.js" />
         <option value="$PROJECT_DIR$/routes/FuzzySearch.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/details.js" />
         <option value="$PROJECT_DIR$/routes/details.js" />
         <option value="$PROJECT_DIR$/routes/fuzzySearch.js" />
-        <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/test/goods-test.js" />
-        <option value="$PROJECT_DIR$/test/routes/goods-test.js" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/routes/goods.js" />
       </list>
     </option>
   </component>
@@ -269,15 +317,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <component name="ProjectFrameBounds">
-=======
-  <component name="ProjectFrameBounds" extendedState="1">
->>>>>>> get-goods-test
-=======
-  <component name="ProjectFrameBounds">
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -288,17 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="transportation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,23 +338,18 @@
             <path>
               <item name="transportation" type="b2602c69:ProjectViewProjectNode" />
               <item name="transportation" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transportation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transportation" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="transportation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transportation" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transportation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transportation" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="transportation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -343,11 +367,110 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="senders" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="keyword" />
+                <option name="value" value="ex" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;_id&quot;: 10005,   &quot;kind&quot;: &quot;Large goods&quot;,   &quot;goodName&quot;: &quot;Car&quot;,   &quot;goodLocation&quot;: &quot;in the highway road&quot;,   &quot;deliveryman&quot;: &quot;d5&quot;,   &quot;deliverymanPhoneNumber&quot;: &quot;Car&quot;,   &quot;senderName&quot;: &quot;Yan Liu&quot;,   &quot;senderPhoneNumber&quot;: &quot;15261820009&quot;,   &quot;senderLocation&quot;: &quot;BeiJing&quot;,   &quot;receiverName&quot;: &quot;David&quot;,   &quot;receiverPhoneNumber&quot;: &quot;434234235&quot;,   &quot;receiverLocation&quot;: &quot;XXXXXXX&quot;,   &quot;freight&quot;: 1000,   &quot;paymentType&quot;: &quot;bank card&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="goods" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="keyword" />
+                <option name="value" value="ex" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;_id&quot;: 10005,   &quot;kind&quot;: &quot;Large goods&quot;,   &quot;goodName&quot;: &quot;Car&quot;,   &quot;goodLocation&quot;: &quot;in the highway road&quot;,   &quot;deliveryman&quot;: &quot;d5&quot;,   &quot;deliverymanPhoneNumber&quot;: &quot;Car&quot;,   &quot;senderName&quot;: &quot;Yan Liu&quot;,   &quot;senderPhoneNumber&quot;: &quot;15261820009&quot;,   &quot;senderLocation&quot;: &quot;BeiJing&quot;,   &quot;receiverName&quot;: &quot;David&quot;,   &quot;receiverPhoneNumber&quot;: &quot;434234235&quot;,   &quot;receiverLocation&quot;: &quot;XXXXXXX&quot;,   &quot;freight&quot;: 1000,   &quot;paymentType&quot;: &quot;bank card&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="fuzzySearch/yan" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="keyword" />
+                <option name="value" value="ex" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;_id&quot;: 10005,   &quot;kind&quot;: &quot;Large goods&quot;,   &quot;goodName&quot;: &quot;Car&quot;,   &quot;goodLocation&quot;: &quot;in the highway road&quot;,   &quot;deliveryman&quot;: &quot;d5&quot;,   &quot;deliverymanPhoneNumber&quot;: &quot;Car&quot;,   &quot;senderName&quot;: &quot;Yan Liu&quot;,   &quot;senderPhoneNumber&quot;: &quot;15261820009&quot;,   &quot;senderLocation&quot;: &quot;BeiJing&quot;,   &quot;receiverName&quot;: &quot;David&quot;,   &quot;receiverPhoneNumber&quot;: &quot;434234235&quot;,   &quot;receiverLocation&quot;: &quot;XXXXXXX&quot;,   &quot;freight&quot;: 1000,   &quot;paymentType&quot;: &quot;bank card&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:3000" />
@@ -1932,105 +2055,6 @@
           <option name="textToSend" value="{ &quot;_id&quot; : 10005, &quot;kind&quot; : &quot;Large goods&quot;, &quot;good&quot; : { &quot;goodName&quot; : &quot;Car&quot;, &quot;goodLocation&quot; : &quot;in the highway road&quot;, &quot;deliveryman&quot; : &quot;d5&quot;, &quot;deliverymanPhoneNumber&quot; : &quot;111111111&quot; }, &quot;sender&quot; : { &quot;senderName&quot; : &quot;Yan Liu&quot;, &quot;senderPhoneNumber&quot; : &quot;15261820009&quot;, &quot;senderLocation&quot; : &quot;BeiJing&quot; }, &quot;receiver&quot; : { &quot;receiverName&quot; : &quot;David&quot;, &quot;receiverPhoneNumber&quot; : &quot;434234235&quot;, &quot;receiverLocation&quot; : &quot;XXXXXXX&quot; }, &quot;freight&quot; : 1000, &quot;paymentType&quot; : &quot;bank card&quot; } " />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="fuzzySearch/di" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="keyword" />
-                <option name="value" value="ex" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{ &quot;_id&quot; : 10005, &quot;kind&quot; : &quot;Large goods&quot;, &quot;good&quot; : { &quot;goodName&quot; : &quot;Car&quot;, &quot;goodLocation&quot; : &quot;in the highway road&quot;, &quot;deliveryman&quot; : &quot;d5&quot;, &quot;deliverymanPhoneNumber&quot; : &quot;111111111&quot; }, &quot;sender&quot; : { &quot;senderName&quot; : &quot;Yan Liu&quot;, &quot;senderPhoneNumber&quot; : &quot;15261820009&quot;, &quot;senderLocation&quot; : &quot;BeiJing&quot; }, &quot;receiver&quot; : { &quot;receiverName&quot; : &quot;David&quot;, &quot;receiverPhoneNumber&quot; : &quot;434234235&quot;, &quot;receiverLocation&quot; : &quot;XXXXXXX&quot; }, &quot;freight&quot; : 1000, &quot;paymentType&quot; : &quot;bank card&quot; } " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="fuzzySearch/Ca" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="keyword" />
-                <option name="value" value="ex" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{ &quot;_id&quot; : 10005, &quot;kind&quot; : &quot;Large goods&quot;, &quot;good&quot; : { &quot;goodName&quot; : &quot;Car&quot;, &quot;goodLocation&quot; : &quot;in the highway road&quot;, &quot;deliveryman&quot; : &quot;d5&quot;, &quot;deliverymanPhoneNumber&quot; : &quot;111111111&quot; }, &quot;sender&quot; : { &quot;senderName&quot; : &quot;Yan Liu&quot;, &quot;senderPhoneNumber&quot; : &quot;15261820009&quot;, &quot;senderLocation&quot; : &quot;BeiJing&quot; }, &quot;receiver&quot; : { &quot;receiverName&quot; : &quot;David&quot;, &quot;receiverPhoneNumber&quot; : &quot;434234235&quot;, &quot;receiverLocation&quot; : &quot;XXXXXXX&quot; }, &quot;freight&quot; : 1000, &quot;paymentType&quot; : &quot;bank card&quot; } " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="fuzzySearch/ca" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="keyword" />
-                <option name="value" value="ex" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{ &quot;_id&quot; : 10005, &quot;kind&quot; : &quot;Large goods&quot;, &quot;good&quot; : { &quot;goodName&quot; : &quot;Car&quot;, &quot;goodLocation&quot; : &quot;in the highway road&quot;, &quot;deliveryman&quot; : &quot;d5&quot;, &quot;deliverymanPhoneNumber&quot; : &quot;111111111&quot; }, &quot;sender&quot; : { &quot;senderName&quot; : &quot;Yan Liu&quot;, &quot;senderPhoneNumber&quot; : &quot;15261820009&quot;, &quot;senderLocation&quot; : &quot;BeiJing&quot; }, &quot;receiver&quot; : { &quot;receiverName&quot; : &quot;David&quot;, &quot;receiverPhoneNumber&quot; : &quot;434234235&quot;, &quot;receiverLocation&quot; : &quot;XXXXXXX&quot; }, &quot;freight&quot; : 1000, &quot;paymentType&quot; : &quot;bank card&quot; } " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2045,6 +2069,27 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.bin/www" />
+      <item itemvalue="npm.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -2098,28 +2143,17 @@
       <workItem from="1539190147527" duration="3788000" />
       <workItem from="1539195464520" duration="12000" />
       <workItem from="1539195715200" duration="261000" />
-<<<<<<< HEAD
       <workItem from="1539680680469" duration="131000" />
-      <workItem from="1539681690578" duration="15000" />
-<<<<<<< HEAD
-=======
-      <workItem from="1539680680469" duration="579000" />
->>>>>>> get-goods-test
-=======
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+      <workItem from="1539782634553" duration="57000" />
+      <workItem from="1539804195955" duration="679000" />
+      <workItem from="1539807352913" duration="139000" />
+      <workItem from="1539808009826" duration="383000" />
+      <workItem from="1539808403889" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="65142000" />
-=======
-    <option name="totallyTimeSpent" value="65490000" />
->>>>>>> get-goods-test
-=======
-    <option name="totallyTimeSpent" value="65142000" />
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+    <option name="totallyTimeSpent" value="66316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2131,33 +2165,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
-      <window_info id="npm" order="1" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49655172" visible="true" weight="0.14587738" />
+      <window_info id="npm" order="1" sideWeight="0.50625867" side_tool="true" visible="true" weight="0.14587738" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4937413" visible="true" weight="0.14587738" />
       <window_info id="Structure" order="3" sideWeight="0.50344825" side_tool="true" weight="0.14587738" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2823366" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40751043" />
->>>>>>> get-goods-test
-=======
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2823366" />
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.15159944" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32823366" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3977747" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.86787206" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="11" visible="true" weight="0.2698192" />
+      <window_info anchor="bottom" id="REST Client" order="11" weight="0.42002782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2297,13 +2322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/senders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -2332,15 +2350,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/goods-test.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2853" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/fuzzySearch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/details.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -2349,80 +2384,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/senders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-<<<<<<< HEAD
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
->>>>>>> get-goods-test
-=======
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/goods-test.js">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/senders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/routes/goods-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
->>>>>>> get-goods-test
-=======
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/senders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
->>>>>>> 65d6818be324cd4ff7ace8a7103de00193575db6
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>

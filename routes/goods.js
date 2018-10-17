@@ -4,7 +4,7 @@ let router = express.Router();
 let mongoose = require('mongoose');
 
 var mongodbUri = 'mongodb://YanLiu96:LY19961222..@ds125273.mlab.com:25273/heroku_v7q4gpdm';
-mongoose.connect(mongodbUri);
+mongoose.connect(mongodbUri,{useNewUrlParser:true});
 
 //mongoose.connect('mongodb://localhost:27017/donationsdb');
 let db = mongoose.connection;
@@ -13,7 +13,7 @@ db.on('error', function (err) {
 });
 
 db.once('open', function () {
-    console.log('Successfully Connected to [ ' + db.name + ' ]');
+    console.log('Successfully Connected to transportation database');
 });
 
 
