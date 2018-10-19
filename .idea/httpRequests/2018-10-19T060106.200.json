@@ -3,7 +3,7 @@
     "_id": 10001,
     "goodsName": "IphoneX",
     "deliveryman": "d1",
-    "goodsLocation": "In the road"
+    "goodsLocation": "arriving at aim city"
   },
   {
     "_id": 10002,
@@ -28,5 +28,11 @@
     "goodsName": "Car",
     "deliveryman": "deliverymanWhoChange",
     "goodsLocation": "arriving at aim city"
+  },
+  {
+    "_id": 131313,
+    "goodsName": "testname",
+    "deliveryman": "testdliveryname",
+    "goodsLocation": "testlocation"
   }
 ]

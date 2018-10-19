@@ -16,20 +16,20 @@ db.once('open', function () {
     console.log('Successfully Connected to transportation database');
 });
 
-
-router.findAllGoods = (req,res)=>{
+router.findAllGoods = (req,res)=> {
     res.setHeader('Content-Type', 'application/json');
     goods.find(function(err, goods) {
         if (err)
             res.send(err);
         res.send(JSON.stringify(goods,null,5));
     });
+
 }
+
 
 router.findOneGood = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
-
     goods.find({ "_id" : req.params.id },function(err, goods) {
         if(err)
             res.json({ message: 'Good NOT Found!', errmsg : err } );

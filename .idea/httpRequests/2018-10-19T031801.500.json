@@ -1,0 +1,19 @@
+<h1>Arguments must be aggregate pipeline operators</h1>
+<h2></h2>
+<pre>Error: Arguments must be aggregate pipeline operators
+at Aggregate.append (/Users/WebApplication2/workspace/webdev/transportation/node_modules/mongoose/lib/aggregate.js:102: 11)
+at new Aggregate (/Users/WebApplication2/workspace/webdev/transportation/node_modules/mongoose/lib/aggregate.js: 53:17)
+at Function.aggregate (/Users/WebApplication2/workspace/webdev/transportation/node_modules/mongoose/lib/model.js: 3295: 21)
+at router.findDetailsByID (/Users/WebApplication2/workspace/webdev/transportation/routes/details.js: 49: 10)
+at Layer.handle [as handle_request] (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/layer.js: 95: 5)
+at next (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/route.js: 137: 13)
+at Route.dispatch (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/route.js: 112: 3)
+at Layer.handle [as handle_request] (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/layer.js: 95: 5)
+at /Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 281:22
+at param (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 354: 14)
+at param (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 365: 14)
+at Function.process_params (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 410: 3)
+at next (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 275: 10)
+at /Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 635: 15
+at next (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 260: 14)
+at Function.handle (/Users/WebApplication2/workspace/webdev/transportation/node_modules/express/lib/router/index.js: 174: 3)</pre>

@@ -1,3 +1,113 @@
+GET http://localhost:3000/details?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060148.200.json
+
+###
+
+GET http://localhost:3000/senders?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060144.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060137.200.json
+
+###
+
+GET http://localhost:3000/receivers?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060132.200.json
+
+###
+
+DELETE http://localhost:3000/senders/131313?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060123.200.json
+
+###
+
+DELETE http://localhost:3000/goods/131313?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060115.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060106.200.json
+
+###
+
+GET http://localhost:3000/details?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060050.200.json
+
+###
+
+GET http://localhost:3000/details?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T060044.200.json
+
+###
+
+GET http://localhost:3000/details/10001?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
+
+<> 2018-10-19T031801.500.json
+
+###
+
 GET http://localhost:3000/senders?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -366,116 +476,6 @@ Content-Type: application/json
 { "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
 
 <> 2018-10-10T062054.200.json
-
-###
-
-DELETE http://localhost:3000/details/10005?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T062049.200.json
-
-###
-
-GET http://localhost:3000/details?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061956.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061947.200.json
-
-###
-
-GET http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061937-1.200.json
-
-###
-
-GET http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061937.200.json
-
-###
-
-GET http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061854.200.json
-
-###
-
-POST http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10005, "kind" : "Large goods",  "goodName" : "Car", "goodLocation" : "in the highway road", "deliveryman" : "d5", "deliverymanPhoneNumber" : "111111111" , "senderName" : "Yan Liu", "senderPhoneNumber" : "15261820009", "senderLocation" : "BeiJing" ,  "receiverName" : "David", "receiverPhoneNumber" : "434234235", "receiverLocation" : "XXXXXXX" , "freight" : 1000, "paymentType" : "bank card" }
-
-<> 2018-10-10T061850.200.json
-
-###
-
-POST http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10004, "kind" : "soft goods",  "goodName" : "Superme", "goodLocation" : "still not send", "deliveryman" : "d4", "deliverymanPhoneNumber" : "8888888" ,"senderName" : "Hellen", "senderPhoneNumber" : "11012121", "senderLocation" : "Waterford" ,  "receiverName" : "Xu Yue", "receiverPhoneNumber" : "4444444", "receiverLocation" : "River Walk bolic 2" , "freight" : 33, "paymentType" : "freight collect" }
-
-<> 2018-10-10T061744.200.json
-
-###
-
-POST http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10003, "kind" : "soft goods",  "goodName" : "AJ 1", "goodLocation" : "In the pass station", "deliveryman" : "d3", "deliverymanPhoneNumber" : "78944444" , "senderName" : "Bao Jie", "senderPhoneNumber" : "110", "senderLocation" : "Waterford" ,  "receiverName" : "shabi", "receiverPhoneNumber" : "33333333", "receiverLocation" : "UK" , "freight" : 20, "paymentType" : "Cash" }
-
-<> 2018-10-10T061641.200.json
-
-###
-
-POST http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10002, "kind" : "expensive good",  "goodName" : "Mac Pro", "goodLocation" : "In the transfer station", "deliveryman" : "d2", "deliverymanPhoneNumber" : "2131313" , "senderName" : "Yin Wu Jiu Ge", "senderPhoneNumber" : "798668668", "senderLocation" : "china" ,  "receiverName" : "woshinidie", "receiverPhoneNumber" : "2222222", "receiverLocation" : "DongHai" , "freight" : 150, "paymentType" : "Cash" }
-
-<> 2018-10-10T061530.200.json
 
 ###
 

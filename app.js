@@ -44,10 +44,9 @@ app.delete('/receivers/:id',receivers.deleteReceiver);
 
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
-app.post('/details',details.addDetails);
-app.delete('/details/:id',details.deleteDetails)
 
-app.get('/fuzzySearch/:keyword',fuzzySearch.kindFuzzySearch);
+
+app.get('/fuzzySearch/:keyword',fuzzySearch.FuzzySearchGoodOrSenderOrReceiverName);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
