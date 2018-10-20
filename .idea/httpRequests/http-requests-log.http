@@ -1,3 +1,146 @@
+PUT http://localhost:3000/goods/10001/changeDeliveryName/d1?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063318.200.json
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDelivery/d1?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063309.404.html
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryman/d1?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063208.200.json
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryman/d1?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063159.200.json
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryman/dtest?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063116.200.json
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryman/dtest?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063110.404.html
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryman/dtest?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T063029.404.html
+
+###
+
+PUT http://localhost:3000/goods/10001/changeDeliveryName/dtest?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T062956.404.html
+
+###
+
+PUT http://localhost:3000/goods/10001/changeLocation/donghai?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T053415.200.json
+
+###
+
+PUT http://localhost:3000/goods/10001/donghai?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T053353.404.html
+
+###
+
+PUT http://localhost:3000/goods/10001/donghai?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T053346.404.html
+
+###
+
+GET http://localhost:3000/goods/10001?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T053335.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
+
+<> 2018-10-20T053231.200.json
+
+###
+
 DELETE http://localhost:3000/goods/10009?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -349,129 +492,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-10-16T113318.200.json
-
-###
-
-GET http://localhost:3000/goods/131313
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113300.200.json
-
-###
-
-GET http://localhost:3000/goods
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113227.200.json
-
-###
-
-GET http://localhost:3000/goods
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113217-1.200.json
-
-###
-
-GET http://localhost:3000/goods
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113217.200.json
-
-###
-
-GET http://localhost:3000/resources
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113025.404.html
-
-###
-
-GET http://localhost:8080/resources
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://localhost:3000/fuzzySearch/Yan%20liu?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-10T071151.200.html
-
-###
-
-GET http://localhost:3000/fuzzySearch/Yan%20liu'?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-10T071148.200.html
-
-###
-
-GET http://localhost:3000/fuzzySearch/mac?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-10T071051.200.html
-
-###
-
-GET http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-10T071014.200.json
-
-###
-
-POST http://localhost:3000/details/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-10T071011.200.json
-
-###
-
-DELETE http://localhost:3000/details/10005?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10004, "kind" : "soft goods", "goodName" : "Superme", "goodLocation" : "still not send", "deliveryman" : "d4", "deliverymanPhoneNumber" : "8888888" , "senderName" : "Hellen", "senderPhoneNumber" : "11012121", "senderLocation" : "Waterford" , "receiverName" : "Xu Yue", "receiverPhoneNumber" : "4444444", "receiverLocation" : "River Walk bolic 2" , "freight" : 33, "paymentType" : "freight collect" }
-
-<> 2018-10-10T070958.200.json
-
-###
-
-GET http://localhost:3000/details?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "_id" : 10004, "kind" : "soft goods", "goodName" : "Superme", "goodLocation" : "still not send", "deliveryman" : "d4", "deliverymanPhoneNumber" : "8888888" , "senderName" : "Hellen", "senderPhoneNumber" : "11012121", "senderLocation" : "Waterford" , "receiverName" : "Xu Yue", "receiverPhoneNumber" : "4444444", "receiverLocation" : "River Walk bolic 2" , "freight" : 33, "paymentType" : "freight collect" }
-
-<> 2018-10-10T065147.200.json
 
 ###
 

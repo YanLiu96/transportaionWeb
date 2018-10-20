@@ -24,13 +24,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/users', usersRouter)
+
 app.get('/goods',goods.findAllGoods);
 app.get('/goods/:id',goods.findOneGood);
 app.post('/goods',goods.addGood);
 app.delete('/goods/:id',goods.deleteGood)
-app.put('/goods/:id/changeStatus', goods.changeGoodLocation);
-app.put('/goods/:id/changeDeliveryman',goods.changeDeliveryman);
+app.put('/goods/:id/changeLocation/:location', goods.changeGoodLocation);
+app.put('/goods/:id/changeDeliveryName/:name',goods.changeDeliveryName);
 
 app.get('/senders',senders.findAllSenders);
 app.get('/senders/:id',senders.findOneSender);
@@ -44,7 +45,6 @@ app.delete('/receivers/:id',receivers.deleteReceiver);
 
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
-
 
 app.get('/fuzzySearch/:keyword',fuzzySearch.FuzzySearchGoodOrSenderOrReceiverName);
 // catch 404 and forward to error handler

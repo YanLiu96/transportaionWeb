@@ -47,7 +47,7 @@ router.findDetailsByID = (req, res) => {
                 from:"senders",
                 localField: "_id",
                 foreignField:"_id",
-                as:"senders",
+                as:"Sender",
             }},
 
         {
@@ -55,7 +55,7 @@ router.findDetailsByID = (req, res) => {
                 from:"receivers",
                 localField: "_id",
                 foreignField:"_id",
-                as:"receivers",
+                as:"Receiver",
             }},
 
         {

@@ -1,0 +1,14 @@
+{
+  "message": "Good Status Successfully Upvoted!",
+  "data": {
+    "deliveryman": {
+      "deliverymanName": "d1",
+      "phoneNumber": "15261820009"
+    },
+    "_id": 10001,
+    "goodsName": "IphoneX",
+    "goodsKind": "expensive",
+    "freight": 38.5,
+    "goodsLocation": "donghai"
+  }
+}

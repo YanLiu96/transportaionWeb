@@ -31,7 +31,6 @@ router.addReceiver = (req, res) => {
     receiver.receiverName = req.body.receiverName;
     receiver.receiverPhoneNumber = req.body.receiverPhoneNumber;
     receiver.receiverLocation =req.body.receiverLocation;
-
     receiver.save(function(err) {
         if (err)
             res.json({ message: 'receiver NOT Added!', errmsg : err } );

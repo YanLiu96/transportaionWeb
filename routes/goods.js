@@ -67,27 +67,28 @@ router.changeGoodLocation = (req, res) => {
         if (err)
             res.json({ message: 'Good NOT Found!', errmsg : err } );
         else {
-            goods.goodsLocation = "arriving at aim city";
+            goods.goodsLocation = req.params.location;
             goods.save(function (err) {
                 if (err)
-                    res.json({ message: 'Good Status NOT Change!', errmsg : err } );
+                    res.json({ message: 'Good Location NOT Change!', errmsg : err } );
                 else
-                    res.json({ message: 'Good Status Successfully Upvoted!', data: goods });
+                    res.json({ message: 'Good Location Successfully Change!', data: goods });
             });
         }
     });
 }
-router.changeDeliveryman = (req, res) => {
+
+router.changeDeliveryName = (req, res) => {
     goods.findById(req.params.id, function(err,goods) {
         if (err)
             res.json({ message: 'Good NOT Found!', errmsg : err } );
         else {
-            goods.deliveryman = "deliverymanWhoChange";
+            goods.deliveryman.deliverymanName = req.params.name;
             goods.save(function (err) {
                 if (err)
-                    res.json({ message: 'Good Status NOT Change!', errmsg : err } );
+                    res.json({ message: 'NOT change!', errmsg : err } );
                 else
-                    res.json({ message: 'Good Status Successfully Upvoted!', data: goods });
+                    res.json({ message: 'Delivery man name change!', data: goods });
             });
         }
     });
