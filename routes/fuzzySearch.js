@@ -1,11 +1,10 @@
-let fuzzyGoods = require('../models/goods')
-let fuzzySenders = require('../models/senders')
+let fuzzySearch = require('../models/goods')
 let express = require('express')
 let router = express.Router();
 router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
     res.setHeader('Content-Type', 'application/json');
     var keyword = req.params.keyword;
-    fuzzyGoods.aggregate([
+    fuzzySearch.aggregate([
         {
             $lookup:{
                 from:"senders",

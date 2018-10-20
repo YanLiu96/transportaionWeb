@@ -1,0 +1,9 @@
+{
+  "message": "Good Successfully Added!",
+  "data": {
+    "_id": 10006,
+    "goodsName": "Csdsr",
+    "deliveryman": "d6",
+    "goodsLocation": "gl6"
+  }
+}
