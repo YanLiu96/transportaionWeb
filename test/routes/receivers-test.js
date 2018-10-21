@@ -33,7 +33,9 @@ describe('Receiver', function () {
                 _id: '131313',
                 receiverName: "tsetReceiverName",
                 receiverPhoneNumber: "test43535",
-                receiverLocation: "idontknow"
+                receiverCountry:"testCountry",
+                receiverAddress:"testAddress",
+                postcode:"testcode"
             };
             chai.request(server)
                 .post('/receivers')
@@ -45,21 +47,7 @@ describe('Receiver', function () {
                 });
         });
     });
-//添加sender的put方法，能够修改sender的电话号码，还有receiver的
-    /*
-    describe('PUT /senders/:id/changeStatus', () => {
-        it('should return a message and the good location  become arrive', function (done) {
-            chai.request(server)
-                .put('/goods/131313/changeStatus')
-                .end(function (err, res) {
-                    expect(res).to.have.status(200);
-                    let good = res.body.data;
-                    expect(good).to.include({goodsLocation: "arriving at aim city"});
-                    done();
-                });
-        });
-    });
-*/
+
     describe('DELETE /receivers/:id',()=>{
         it('should return delete confirmation message ', function(done) {
             chai.request(server)

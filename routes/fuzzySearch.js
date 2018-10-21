@@ -12,7 +12,6 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
                 foreignField:"_id",
                 as:"senders",
             }},
-
         {
             $lookup:{
                 from:"receivers",
@@ -20,7 +19,6 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
                 foreignField:"_id",
                 as:"receivers",
             }},
-
         {
             $project:{
                 "senders._id":0,
@@ -33,15 +31,11 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
                     {senders:{ $elemMatch:{sendersName:{$regex:keyword,$options: '$i'}}}},
                     {receivers:{ $elemMatch:{receiverName:{$regex:keyword,$options: '$i'}}}}
             ]}}
-
     ],function (err,details) {
         if(err)
             res.json({ message: 'NO Information!', errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
-
     });
-
-
 }
 module.exports = router;

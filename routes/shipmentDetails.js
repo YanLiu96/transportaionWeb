@@ -74,8 +74,6 @@ router.findGoodAndShipment = (req, res) => {
             res.json({ message: 'NO Information!', errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
-
     });
-
 }
 module.exports = router;

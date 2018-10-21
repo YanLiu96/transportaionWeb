@@ -73,7 +73,6 @@ router.changeReceiverAddress = (req, res) => {
             res.json({ message: 'Receiver NOT Found!', errmsg : err } );
         else {
             receivers.receiverAddress = req.params.address;
-
             receivers.save(function (err) {
                 if (err)
                     res.json({ message: 'NOT change!', errmsg : err } );

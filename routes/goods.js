@@ -26,7 +26,6 @@ router.findAllGoods = (req,res)=> {
 
 }
 
-
 router.findOneGood = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
@@ -53,6 +52,7 @@ router.addGood = (req, res) => {
             res.json({ message: 'Good Successfully Added!', data: good });
     });
 }
+
 router.deleteGood = (req, res) => {
     goods.findByIdAndRemove(req.params.id, function(err) {
         if (err)
