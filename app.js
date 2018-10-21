@@ -11,6 +11,7 @@ const senders = require('./routes/senders');
 const receivers = require('./routes/receivers');
 const details = require('./routes/details');
 const fuzzySearch = require('./routes/fuzzySearch');
+const shipmentDetails = require('./routes/shipmentDetails');
 var app = express();
 
 // view engine setup
@@ -32,11 +33,14 @@ app.post('/goods',goods.addGood);
 app.delete('/goods/:id',goods.deleteGood)
 app.put('/goods/:id/changeLocation/:location', goods.changeGoodLocation);
 app.put('/goods/:id/changeDeliveryName/:name',goods.changeDeliveryName);
+app.put('/goods/:id/changeDeliveryPhoneNumber/:phoneNumber',goods.changeDeliveryPhoneNumber);
+
 
 app.get('/senders',senders.findAllSenders);
 app.get('/senders/:id',senders.findOneSender);
 app.post('/senders',senders.addSender);
 app.delete('/senders/:id',senders.deleteSender);
+
 
 app.get('/receivers',receivers.findAllReceivers);
 app.get('/receivers/:id',receivers.findOneReceiver);
@@ -47,6 +51,14 @@ app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);
 
 app.get('/fuzzySearch/:keyword',fuzzySearch.FuzzySearchGoodOrSenderOrReceiverName);
+
+app.get('/shipmentDetails',shipmentDetails.findAllDetails);
+app.get('/shipmentDetails/:id',shipmentDetails.findOneDetails);
+app.get('/goodAndShipment/:id',shipmentDetails.findGoodAndShipment);
+app.post('/shipmentDetails',shipmentDetails.addDetails);
+app.delete('/shipmentDetails/:id',shipmentDetails.deleteDetails);
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

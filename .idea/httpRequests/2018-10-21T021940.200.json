@@ -1,0 +1,12 @@
+{
+  "message": "shipmentDetails Successfully Added!",
+  "data": {
+    "dimensionsInCM": {
+      "length": 35,
+      "width": 49,
+      "height": 12
+    },
+    "_id": 10002,
+    "numberOfPackage": "1"
+  }
+}

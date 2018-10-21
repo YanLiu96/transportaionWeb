@@ -14,9 +14,7 @@ router.findAllSenders = (req,res)=>{
 }
 
 router.findOneSender = (req, res) => {
-
     res.setHeader('Content-Type', 'application/json');
-
     senders.find({ "_id" : req.params.id },function(err, senders) {
         if(err)
             res.json({ message: 'Sender NOT Found!', errmsg : err } );
@@ -29,10 +27,12 @@ router.addSender = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     var sender = new senders();
     sender._id = req.body._id;
+    sender.senderMethod =req.body.senderMethod;
     sender.sendersName = req.body.sendersName;
     sender.senderPhoneNumber = req.body.senderPhoneNumber;
-    sender.senderLocation =req.body.senderLocation;
-
+    sender.senderAddress =req.body.senderLocation;
+    sender.postcode =req.body.postcode;
+    sender.sendDate = req.body.sendDate;
     sender.save(function(err) {
         if (err)
             res.json({ message: 'Sender NOT Added!', errmsg : err } );
@@ -49,4 +49,5 @@ router.deleteSender = (req, res) => {
             res.json({ message: 'Sender Successfully Deleted!'});
     });
 }
+
 module.exports = router;

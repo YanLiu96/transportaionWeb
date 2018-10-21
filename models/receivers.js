@@ -3,7 +3,9 @@ let ReceiverSchema = new mongoose.Schema({
         _id:Number,
         receiverName: String,
         receiverPhoneNumber: String,
-        receiverLocation: String
+        receiverCountry:String,
+        receiverAddress:String,
+        postcode:String
     },{versionKey:false},
     { collection: 'receivers' });
 

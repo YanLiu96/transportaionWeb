@@ -1,9 +1,12 @@
 let mongoose = require('mongoose');
 let SenderSchema = new mongoose.Schema({
         _id:Number,
+        senderMethod:String,
         sendersName: String,
         senderPhoneNumber: String,
-        senderLocation: String
+        senderAddress: String,
+        postcode:String,
+        sendDate:String
     },{versionKey:false},
     { collection: 'senders' });
 

@@ -28,7 +28,7 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
             }},
         {
             $match:{
-                $or: [  // 多字段同时匹配
+                $or: [
                     {goodsName:{$regex:keyword,$options: '$i'}},
                     {senders:{ $elemMatch:{sendersName:{$regex:keyword,$options: '$i'}}}},
                     {receivers:{ $elemMatch:{receiverName:{$regex:keyword,$options: '$i'}}}}

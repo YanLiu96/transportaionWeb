@@ -84,11 +84,29 @@ router.changeDeliveryName = (req, res) => {
             res.json({ message: 'Good NOT Found!', errmsg : err } );
         else {
             goods.deliveryman.deliverymanName = req.params.name;
+
             goods.save(function (err) {
                 if (err)
                     res.json({ message: 'NOT change!', errmsg : err } );
                 else
                     res.json({ message: 'Delivery man name change!', data: goods });
+            });
+        }
+    });
+}
+
+router.changeDeliveryPhoneNumber = (req, res) => {
+    goods.findById(req.params.id, function(err,goods) {
+        if (err)
+            res.json({ message: 'Good NOT Found!', errmsg : err } );
+        else {
+            goods.deliveryman.phoneNumbere = req.params.phoneNumber;
+
+            goods.save(function (err) {
+                if (err)
+                    res.json({ message: 'NOT change!', errmsg : err } );
+                else
+                    res.json({ message: 'Delivery man phone number change!', data: goods });
             });
         }
     });

@@ -1,3 +1,69 @@
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-21T022311.200.json
+
+###
+
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10004,      "numberOfPackage":20,   "totalWeightInKg": 11,      "dimensionsInCM": {     "length": 50,      "width": 40,     "height":30   } }
+
+<> 2018-10-21T022156.200.json
+
+###
+
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10003,      "numberOfPackage":3,   "totalWeightInKg": 2.1,      "dimensionsInCM": {     "length": 27,      "width": 11,     "height":18   } }
+
+<> 2018-10-21T022035.200.json
+
+###
+
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10002,      "numberOfPackage":1,   "totalWeightInKg": 1.3,      "dimensionsInCM": {     "length": 35,      "width": 49,     "height":12   } }
+
+<> 2018-10-21T021940.200.json
+
+###
+
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10001,      "numberOfPackage":1,   "totalWeightInKg": 0.5,      "dimensionsInCM": {     "length": 20,      "width": 10,     "height":3   } }
+
+<> 2018-10-21T021839.200.json
+
+###
+
+POST http://localhost:3000/shipmentDetails?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10001,      "numberOfPackage":1,   "totalWeightInKg": 0.5,      "dimensionsInCM": {     "length": 20,      "width": 10,     "height":3   }, }
+
+<> 2018-10-21T021820.400.html
+
+###
+
 PUT http://localhost:3000/goods/10001/changeDeliveryName/d1?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -452,46 +518,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-10-17T124949.200.json
-
-###
-
-GET http://localhost:8080/resources
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://localhost:30000/goods
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://localhost:30000/resources
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://localhost:8080/resources
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-DELETE http://localhost:3000/goods/131313
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113343.200.json
-
-###
-
-GET http://localhost:3000/goods/
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-10-16T113318.200.json
 
 ###
 
