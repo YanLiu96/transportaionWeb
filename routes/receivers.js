@@ -49,4 +49,38 @@ router.deleteReceiver = (req, res) => {
             res.json({ message: 'Receiver Successfully Deleted!'});
     });
 }
+
+router.changeReceiverPhoneNumber = (req, res) => {
+    receivers.findById(req.params.id, function(err,receivers) {
+        if (err)
+            res.json({ message: 'Receiver NOT Found!', errmsg : err } );
+        else {
+            receivers.receiverPhoneNumber = req.params.phoneNumber;
+
+            receivers.save(function (err) {
+                if (err)
+                    res.json({ message: 'NOT change!', errmsg : err } );
+                else
+                    res.json({ message: 'receiver phone number change!', data: receivers });
+            });
+        }
+    });
+}
+
+router.changeReceiverAddress = (req, res) => {
+    receivers.findById(req.params.id, function(err,receivers) {
+        if (err)
+            res.json({ message: 'Receiver NOT Found!', errmsg : err } );
+        else {
+            receivers.receiverAddress = req.params.address;
+
+            receivers.save(function (err) {
+                if (err)
+                    res.json({ message: 'NOT change!', errmsg : err } );
+                else
+                    res.json({ message: 'receiver phone number change!', data: receivers });
+            });
+        }
+    });
+}
 module.exports = router;

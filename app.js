@@ -46,6 +46,8 @@ app.get('/receivers',receivers.findAllReceivers);
 app.get('/receivers/:id',receivers.findOneReceiver);
 app.post('/receivers',receivers.addReceiver);
 app.delete('/receivers/:id',receivers.deleteReceiver);
+app.put('/receivers/:id/changePhoneNumber/:phoneNumber',receivers.changeReceiverPhoneNumber);
+app.put('/receivers/:id/changeAddress/:address',receivers.changeReceiverAddress);
 
 app.get('/details',details.findDetails);
 app.get('/details/:id',details.findDetailsByID);

@@ -1,0 +1,11 @@
+{
+  "message": "receiver phone number change!",
+  "data": {
+    "_id": 10004,
+    "receiverName": "Xu Yue",
+    "receiverPhoneNumber": "6666666",
+    "receiverCountry": "Norway",
+    "receiverAddress": "dunblin",
+    "postcode": "FSDFFS"
+  }
+}
