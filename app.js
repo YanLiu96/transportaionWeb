@@ -32,8 +32,7 @@ app.get('/goods/:id',goods.findOneGood);
 app.post('/goods',goods.addGood);
 app.delete('/goods/:id',goods.deleteGood)
 app.put('/goods/:id/changeLocation/:location', goods.changeGoodLocation);
-app.put('/goods/:id/changeDeliveryName/:name',goods.changeDeliveryName);
-app.put('/goods/:id/changeDeliveryPhoneNumber/:phoneNumber',goods.changeDeliveryPhoneNumber);
+app.put('/goods/:id/changeDeliveryman/:name/:phoneNumber',goods.changeDeliveryman);
 
 
 app.get('/senders',senders.findAllSenders);
