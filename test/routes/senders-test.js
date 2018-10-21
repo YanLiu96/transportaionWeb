@@ -32,8 +32,11 @@ describe('Senders', function () {
             let sender = {
                 _id: '131313',
                 sendersName: "testName",
+                senderMethod:"EMS",
                 senderPhoneNumber: "test12334",
-                senderLocation: "testLocation"
+                senderAddress: "testLocation",
+                postcode:"TESTCODE",
+                sendDate:"2018-10-21"
             };
             chai.request(server)
                 .post('/senders')
@@ -45,21 +48,23 @@ describe('Senders', function () {
                 });
         });
     });
-//添加sender的put方法，能够修改sender的电话号码，还有receiver的
-    /*
-    describe('PUT /senders/:id/changeStatus', () => {
-        it('should return a message and the good location  become arrive', function (done) {
+
+    describe('GET /senders/:id', () => {
+        it('should return sender which id is test_id:131313', function (done) {
             chai.request(server)
-                .put('/goods/131313/changeStatus')
-                .end(function (err, res) {
+                .get('/senders/131313')
+                .end((err, res) => {
                     expect(res).to.have.status(200);
-                    let good = res.body.data;
-                    expect(good).to.include({goodsLocation: "arriving at aim city"});
+                    expect(res.body.length).to.equal(1);
+                    let result = _.map(res.body, (senders) => {
+                        return {_id: senders._id}
+                    });
+                    expect(result).to.include({_id: 131313});
                     done();
                 });
         });
     });
-*/
+
     describe('DELETE /senders/:id',()=>{
         it('should return delete confirmation message ', function(done) {
             chai.request(server)
