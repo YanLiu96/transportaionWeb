@@ -47,7 +47,45 @@ describe("Receiver", function () {
                 });
         });
     });
-
+    describe("GET /receivers/:id", () => {
+        it("should return sender which id is test_id:131313", function (done) {
+            chai.request(server)
+                .get("/receivers/131313")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(1);
+                    let result = _.map(res.body, (receiver) => {
+                        return {_id: receiver._id};
+                    });
+                    expect(result).to.include({_id: 131313});
+                    done();
+                });
+        });
+    });
+    describe("PUT /receivers/:id/changePhoneNumber/:phoneNumber", () => {
+        it("should change th receiver phone number to 11223344", function (done) {
+            chai.request(server)
+                .put("/receivers/131313/changePhoneNumber/11223344")
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    let receiver = res.body.data;
+                    expect(receiver).to.include({receiverPhoneNumber: "11223344"});
+                    done();
+                });
+        });
+    });
+    describe("PUT /receivers/:id/changeAddress/:address", () => {
+        it("should change th receiver address  to testaddress", function (done) {
+            chai.request(server)
+                .put("/receivers/131313/changeAddress/testaddress")
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    let receiver = res.body.data;
+                    expect(receiver).to.include({receiverAddress: "testaddress"});
+                    done();
+                });
+        });
+    });
     describe("DELETE /receivers/:id",()=>{
         it("should return delete confirmation message ", function(done) {
             chai.request(server)

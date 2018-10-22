@@ -8,7 +8,8 @@ router.findAllReceivers = (req,res)=>{
     receivers.find(function(err, receivers) {
         if (err)
             res.send(err);
-        res.send(JSON.stringify(receivers,null,5));
+        else
+            res.send(JSON.stringify(receivers,null,5));
     });
 };
 
