@@ -1,21 +1,21 @@
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-let server = require('../../bin/www');
+let chai = require("chai");
+let chaiHttp = require("chai-http");
+let server = require("../../bin/www");
 let expect = chai.expect;
-chai.use(require('chai-things'));
+chai.use(require("chai-things"));
 chai.use(chaiHttp);
-let _ = require('lodash' );
+let _ = require("lodash" );
 
-describe('ShipmentDetails', function () {
-    describe('GET /shipmentDetails', () => {
-        it('should return the all shipmentDetails ', function (done) {
+describe("ShipmentDetails", function () {
+    describe("GET /shipmentDetails", () => {
+        it("should return the all shipmentDetails ", function (done) {
             chai.request(server)
-                .get('/shipmentDetails')
+                .get("/shipmentDetails")
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     expect(res.body.length).to.equal(5);
                     let result = _.map(res.body, (shipmentDetails) => {
-                        return {_id: shipmentDetails._id}
+                        return {_id: shipmentDetails._id};
                     });
                     expect(result).to.include({_id: 10001});
                     expect(result).to.include({_id: 10002});
@@ -28,30 +28,30 @@ describe('ShipmentDetails', function () {
 
     });
 
-    describe('GET /shipmentDetails/:id', () => {
-        it('should return shipmentDetails which id is 10001', function (done) {
+    describe("GET /shipmentDetails/:id", () => {
+        it("should return shipmentDetails which id is 10001", function (done) {
             chai.request(server)
-                .get('/shipmentDetails/10001')
+                .get("/shipmentDetails/10001")
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     expect(res.body.length).to.equal(1);
                     let result = _.map(res.body, (shipmentDetails) => {
-                        return {_id: shipmentDetails._id}
+                        return {_id: shipmentDetails._id};
                     });
                     expect(result).to.include({_id: 10001});
                     done();
                 });
         });
     });
-    describe('GET /goodAndShipment/:id', () => {
-        it('should return the all shipmentDetails which combine with shipment and good collection ', function (done) {
+    describe("GET /goodAndShipment/:id", () => {
+        it("should return the all shipmentDetails which combine with shipment and good collection ", function (done) {
             chai.request(server)
-                .get('/goodAndShipment/10001')
+                .get("/goodAndShipment/10001")
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     expect(res.body.length).to.equal(1);
                     let result = _.map(res.body, (shipmentDetails) => {
-                        return {_id: shipmentDetails._id}
+                        return {_id: shipmentDetails._id};
                     });
                     expect(result).to.include({_id: 10001});
                     done();
@@ -59,8 +59,8 @@ describe('ShipmentDetails', function () {
         });
     });
 
-    describe('POST /shipmentDetails', function () {
-        it('should return confirmation message', function (done) {
+    describe("POST /shipmentDetails", function () {
+        it("should return confirmation message", function (done) {
             let shipmentDetail = {
                 _id:131313,
                 numberOfPackage: 2,
@@ -72,29 +72,29 @@ describe('ShipmentDetails', function () {
                 }
             };
             chai.request(server)
-                .post('/shipmentDetails')
+                .post("/shipmentDetails")
                 .send(shipmentDetail)
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
-                    expect(res.body).to.have.property('message').equal('shipmentDetails Successfully Added!');
+                    expect(res.body).to.have.property("message").equal("shipmentDetails Successfully Added!");
                     done();
                 });
         });
     });
 
-    describe('DELETE /shipmentDetails/:id',()=>{
-        it('should return delete confirmation message ', function(done) {
+    describe("DELETE /shipmentDetails/:id",()=>{
+        it("should return delete confirmation message ", function(done) {
             chai.request(server)
-                .delete('/shipmentDetails/131313')
+                .delete("/shipmentDetails/131313")
                 .end(function(err, res) {
                     expect(res).to.have.status(200);
-                    expect(res.body).to.have.property('message').equal('shipmentDetails Successfully Deleted!' );
+                    expect(res.body).to.have.property("message").equal("shipmentDetails Successfully Deleted!" );
                     done();
                 });
         });
         after(function  (done) {
             chai.request(server)
-                .get('/shipmentDetails')
+                .get("/shipmentDetails")
                 .end(function(err, res) {
                     let result = _.map(res.body, (shipmentDetail) => {
                         return { _id: shipmentDetail._id};
@@ -108,6 +108,6 @@ describe('ShipmentDetails', function () {
                     done();
                 });
         });
-    })
+    });
 
 });

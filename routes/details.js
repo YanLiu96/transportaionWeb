@@ -1,17 +1,17 @@
-let Good = require('../models/goods');
-let express = require('express');
+let Good = require("../models/goods");
+let express = require("express");
 let router = express.Router();
 
 router.findDetails = (req,res)=>{
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     Good.aggregate([
         {
-        $lookup:{
-            from:"senders",
-            localField: "_id",
-            foreignField:"_id",
-            as:"senders",
-        }},
+            $lookup:{
+                from:"senders",
+                localField: "_id",
+                foreignField:"_id",
+                as:"senders",
+            }},
         {
             $lookup:{
                 from:"receivers",
@@ -28,15 +28,15 @@ router.findDetails = (req,res)=>{
 
     ],function (err,details) {
         if(err)
-            res.json({ message: 'NO Information!', errmsg : err } );
+            res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
 
     });
-}
+};
 
 router.findDetailsByID = (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     Good.aggregate([
         {
             $match:{
@@ -65,12 +65,12 @@ router.findDetailsByID = (req, res) => {
             }}
     ],function (err,details) {
         if(err)
-            res.json({ message: 'NO Information!', errmsg : err } );
+            res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
 
     });
 
-}
+};
 
 module.exports = router;

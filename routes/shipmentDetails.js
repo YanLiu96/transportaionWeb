@@ -1,32 +1,32 @@
-let shipmentDetails = require('../models/shipmentDetails')
-let express = require('express');
+let shipmentDetails = require("../models/shipmentDetails");
+let express = require("express");
 let router = express.Router();
 
 
 
 router.findAllDetails = (req,res)=>{
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     shipmentDetails.find(function(err, shipmentDetails) {
         if (err)
             res.send(err);
         res.send(JSON.stringify(shipmentDetails,null,5));
     });
-}
+};
 
 router.findOneDetails = (req, res) => {
 
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
 
     shipmentDetails.find({ "_id" : req.params.id },function(err, shipmentDetails) {
         if(err)
-            res.json({ message: 'shipmentDetails NOT Found!', errmsg : err } );
+            res.json({ message: "shipmentDetails NOT Found!", errmsg : err } );
         else
             res.send(JSON.stringify(shipmentDetails,null,5));
     });
-}
+};
 
 router.addDetails = (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     var shipmentDetail = new shipmentDetails();
     shipmentDetail._id = req.body._id;
     shipmentDetail.numberOfPackage =req.body.numberOfPackage;
@@ -34,23 +34,23 @@ router.addDetails = (req, res) => {
     shipmentDetail.dimensionsInCM = req.body.dimensionsInCM;
     shipmentDetail.save(function(err) {
         if (err)
-            res.json({ message: 'shipmentDetails NOT Added!', errmsg : err } );
+            res.json({ message: "shipmentDetails NOT Added!", errmsg : err } );
         else
-            res.json({ message: 'shipmentDetails Successfully Added!', data: shipmentDetail });
+            res.json({ message: "shipmentDetails Successfully Added!", data: shipmentDetail });
     });
-}
+};
 
 router.deleteDetails = (req, res) => {
     shipmentDetails.findByIdAndRemove(req.params.id, function(err) {
         if (err)
-            res.json({ message: 'shipmentDetails NOT DELETED!', errmsg : err } );
+            res.json({ message: "shipmentDetails NOT DELETED!", errmsg : err } );
         else
-            res.json({ message: 'shipmentDetails Successfully Deleted!'});
+            res.json({ message: "shipmentDetails Successfully Deleted!"});
     });
-}
+};
 
 router.findGoodAndShipment = (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     shipmentDetails.aggregate([
         {
             $match:{
@@ -71,9 +71,9 @@ router.findGoodAndShipment = (req, res) => {
             }}
     ],function (err,details) {
         if(err)
-            res.json({ message: 'NO Information!', errmsg : err } );
+            res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
     });
-}
+};
 module.exports = router;

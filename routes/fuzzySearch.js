@@ -1,8 +1,8 @@
-let fuzzySearch = require('../models/goods')
-let express = require('express')
+let fuzzySearch = require("../models/goods");
+let express = require("express");
 let router = express.Router();
 router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
-    res.setHeader('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     var keyword = req.params.keyword;
     fuzzySearch.aggregate([
         {
@@ -27,15 +27,15 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
         {
             $match:{
                 $or: [
-                    {goodsName:{$regex:keyword,$options: '$i'}},
-                    {senders:{ $elemMatch:{sendersName:{$regex:keyword,$options: '$i'}}}},
-                    {receivers:{ $elemMatch:{receiverName:{$regex:keyword,$options: '$i'}}}}
-            ]}}
+                    {goodsName:{$regex:keyword,$options: "$i"}},
+                    {senders:{ $elemMatch:{sendersName:{$regex:keyword,$options: "$i"}}}},
+                    {receivers:{ $elemMatch:{receiverName:{$regex:keyword,$options: "$i"}}}}
+                ]}}
     ],function (err,details) {
         if(err)
-            res.json({ message: 'NO Information!', errmsg : err } );
+            res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));
     });
-}
+};
 module.exports = router;

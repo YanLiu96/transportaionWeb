@@ -1,9 +1,16 @@
 {
     "env": {
-        "node": true
+        "node": true,
+        "mocha": true,
+        "es6": true
     },
+    "plugins": [
+        "json"
+    ], 
     "extends": "eslint:recommended",
     "rules": {
+        "no-unused-vars":"off",
+        "no-console": "off",
         "indent": [
             "error",
             4
