@@ -27,11 +27,7 @@ router.findDetails = (req,res)=>{
             }}
 
     ],function (err,details) {
-        if(err)
-            res.json({ message: "NO Information!", errmsg : err } );
-        else
-            res.send(JSON.stringify(details,null,5));
-
+        res.send(JSON.stringify(details,null,5));
     });
 };
 
@@ -64,13 +60,11 @@ router.findDetailsByID = (req, res) => {
                 "receivers._id":0
             }}
     ],function (err,details) {
-        if(err)
-            res.json({ message: "NO Information!", errmsg : err } );
+        if(details.length ==0)
+            res.send({ message: "Bad search!"});
         else
             res.send(JSON.stringify(details,null,5));
-
     });
-
 };
 
 module.exports = router;

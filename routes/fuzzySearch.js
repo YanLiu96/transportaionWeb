@@ -32,8 +32,8 @@ router.FuzzySearchGoodOrSenderOrReceiverName = (req,res)=>{
                     {receivers:{ $elemMatch:{receiverName:{$regex:keyword,$options: "$i"}}}}
                 ]}}
     ],function (err,details) {
-        if(err)
-            res.json({ message: "NO Information!", errmsg : err } );
+        if(details.length==0)
+            res.json({ message: "NO Information!"} );
         else
             res.send(JSON.stringify(details,null,5));
     });

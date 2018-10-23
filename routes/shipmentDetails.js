@@ -18,7 +18,7 @@ router.findOneDetails = (req, res) => {
     res.setHeader("Content-Type", "application/json");
 
     shipmentDetails.find({ "_id" : req.params.id },function(err, shipmentDetails) {
-        if(err)
+        if(shipmentDetails.length==0)
             res.json({ message: "shipmentDetails NOT Found!", errmsg : err } );
         else
             res.send(JSON.stringify(shipmentDetails,null,5));
@@ -70,7 +70,7 @@ router.findGoodAndShipment = (req, res) => {
                 "goodsInformation.goodsLocation":0
             }}
     ],function (err,details) {
-        if(err)
+        if(details.length==0)
             res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(details,null,5));

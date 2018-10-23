@@ -42,6 +42,16 @@ describe("ShipmentDetails", function () {
                     done();
                 });
         });
+        it("should return shipmentDetails not found when ID not existence", function (done) {
+            chai.request(server)
+                .get("/shipmentDetails/555")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("shipmentDetails NOT Found!" );
+                    done();
+                });
+        });
     });
     describe("GET /goodAndShipment/:id", () => {
         it("should return the all shipmentDetails which combine with shipment and good collection ", function (done) {
@@ -54,6 +64,16 @@ describe("ShipmentDetails", function () {
                         return {_id: shipmentDetails._id};
                     });
                     expect(result).to.include({_id: 10001});
+                    done();
+                });
+        });
+        it("should return sender not found when ID not existence", function (done) {
+            chai.request(server)
+                .get("/goodAndShipment/555")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("NO Information!" );
                     done();
                 });
         });
@@ -77,6 +97,17 @@ describe("ShipmentDetails", function () {
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property("message").equal("shipmentDetails Successfully Added!");
+                    done();
+                });
+        });
+        it("should return error message when the shipmentDetails not add to the database", function (done) {
+            let shipmentDetails = {};
+            chai.request(server)
+                .post("/shipmentDetails")
+                .send(shipmentDetails)
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property("message").equal("shipmentDetails NOT Added!");
                     done();
                 });
         });

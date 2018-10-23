@@ -46,7 +46,19 @@ describe("Receiver", function () {
                     done();
                 });
         });
+        it("should return error message when the receivers not add to the database", function (done) {
+            let receiver = {};
+            chai.request(server)
+                .post("/receivers")
+                .send(receiver)
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property("message").equal("receiver NOT Added!");
+                    done();
+                });
+        });
     });
+
     describe("GET /receivers/:id", () => {
         it("should return sender which id is test_id:131313", function (done) {
             chai.request(server)
@@ -58,6 +70,16 @@ describe("Receiver", function () {
                         return {_id: receiver._id};
                     });
                     expect(result).to.include({_id: 131313});
+                    done();
+                });
+        });
+        it("should return receiver not found when ID not existence", function (done) {
+            chai.request(server)
+                .get("/receivers/555")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("Receiver NOT Found!" );
                     done();
                 });
         });

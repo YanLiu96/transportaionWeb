@@ -1,3 +1,14 @@
+POST http://localhost:3000/goods/?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ }
+
+<> 2018-10-23T085548.200.json
+
+###
+
 GET http://localhost:3000/senders/findCount/Yin%20Wu%20Jiu%20Ge?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -528,17 +539,6 @@ Content-Type: application/json
 {   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
 
 <> 2018-10-20T053231.200.json
-
-###
-
-DELETE http://localhost:3000/goods/10009?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
-
-<> 2018-10-20T035519.200.json
 
 ###
 

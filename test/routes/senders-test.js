@@ -48,6 +48,17 @@ describe("Senders", function () {
                     done();
                 });
         });
+        it("should return error message when the sender not add to the database", function (done) {
+            let sender = {};
+            chai.request(server)
+                .post("/senders")
+                .send(sender)
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property("message").equal("Sender NOT Added!");
+                    done();
+                });
+        });
     });
     describe("GET /senders/findCount/:senderName", () => {
         it("should count one sender send how much goods ", function (done) {
@@ -64,6 +75,16 @@ describe("Senders", function () {
                     done();
                 });
         });
+        it("should return bad search when senderName does not existence ", function (done) {
+            chai.request(server)
+                .get("/senders/findCount/erere")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("NO Information!" );
+                    done();
+                });
+        });
 
     });
     describe("GET /senders/:id", () => {
@@ -77,6 +98,16 @@ describe("Senders", function () {
                         return {_id: senders._id};
                     });
                     expect(result).to.include({_id: 131313});
+                    done();
+                });
+        });
+        it("should return sender not found when ID not existence", function (done) {
+            chai.request(server)
+                .get("/senders/555")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("Sender NOT Found!" );
                     done();
                 });
         });

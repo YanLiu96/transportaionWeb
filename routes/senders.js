@@ -16,7 +16,7 @@ router.findAllSenders = (req,res)=>{
 router.findOneSender = (req, res) => {
     res.setHeader("Content-Type", "application/json");
     senders.find({ "_id" : req.params.id },function(err, senders) {
-        if(err)
+        if(senders.length==0)
             res.json({ message: "Sender NOT Found!", errmsg : err } );
         else
             res.send(JSON.stringify(senders,null,5));
@@ -29,11 +29,10 @@ router.findCount = (req,res) =>{
         {$match:{sendersName:senderName}},
         {$group:{_id:"$sendersName",count:{$sum:1}}}
     ],function (err,sender) {
-        if(err)
+        if(sender.length==0)
             res.json({ message: "NO Information!", errmsg : err } );
         else
             res.send(JSON.stringify(sender,null,5));
-
     });
 };
 router.addSender = (req, res) => {

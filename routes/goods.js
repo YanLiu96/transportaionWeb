@@ -27,10 +27,9 @@ router.findAllGoods = (req,res)=> {
 };
 
 router.findOneGood = (req, res) => {
-
     res.setHeader("Content-Type", "application/json");
     goods.find({ "_id" : req.params.id },function(err, goods) {
-        if(err)
+        if(goods.length==0)
             res.json({ message: "Good NOT Found!", errmsg : err } );
         else
             res.send(JSON.stringify(goods,null,5));

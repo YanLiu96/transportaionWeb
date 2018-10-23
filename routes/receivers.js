@@ -18,7 +18,7 @@ router.findOneReceiver = (req, res) => {
     res.setHeader("Content-Type", "application/json");
 
     receivers.find({ "_id" : req.params.id },function(err, receivers) {
-        if(err)
+        if(receivers.length==0)
             res.json({ message: "Receiver NOT Found!", errmsg : err } );
         else
             res.send(JSON.stringify(receivers,null,5));

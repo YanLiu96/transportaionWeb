@@ -51,6 +51,18 @@ describe("Goods", function () {
                     done();
                 });
         });
+
+        it("should return error message when the goods not add to the database", function (done) {
+            let good = {};
+            chai.request(server)
+                .post("/goods")
+                .send(good)
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property("message").equal("Good NOT Added!");
+                    done();
+                });
+        });
     });
 
     describe("GET /goods/:id", () => {
@@ -64,6 +76,16 @@ describe("Goods", function () {
                         return {_id: goods._id};
                     });
                     expect(result).to.include({_id: 131313});
+                    done();
+                });
+        });
+        it("should return good not found when ID not existence", function (done) {
+            chai.request(server)
+                .get("/goods/555")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(undefined);
+                    expect(res.body).to.have.property("message").equal("Good NOT Found!" );
                     done();
                 });
         });
