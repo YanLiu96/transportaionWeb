@@ -27,6 +27,7 @@ describe("Senders", function () {
         });
 
     });
+
     describe("POST /senders", function () {
         it("should return confirmation message", function (done) {
             let sender = {
@@ -48,7 +49,23 @@ describe("Senders", function () {
                 });
         });
     });
+    describe("GET /senders/findCount/:senderName", () => {
+        it("should count one sender send how much goods ", function (done) {
+            chai.request(server)
+                .get("/senders/findCount/testName")
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    expect(res.body.length).to.equal(1);
+                    let result = _.map(res.body, (sender) => {
+                        return {_id: sender._id};
+                    });
+                    expect(result).to.include({_id:"testName"});
 
+                    done();
+                });
+        });
+
+    });
     describe("GET /senders/:id", () => {
         it("should return sender which id is test_id:131313", function (done) {
             chai.request(server)
