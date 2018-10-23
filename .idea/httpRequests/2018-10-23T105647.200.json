@@ -1,0 +1,18 @@
+{
+  "message": "NO Information!",
+  "errmsg": {
+    "operationTime": "6615489189171429377",
+    "ok": 0,
+    "errmsg": "The field '_name' must be an accumulator object",
+    "code": 40234,
+    "codeName": "Location40234",
+    "$clusterTime": {
+      "clusterTime": "6615489189171429377",
+      "signature": {
+        "hash": "XkxTbIkdB5auZJG2gfzMZ0np128=",
+        "keyId": "6609366593031897089"
+      }
+    },
+    "name": "MongoError"
+  }
+}

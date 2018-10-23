@@ -1,3 +1,146 @@
+GET http://localhost:3000/senders/findCount/Yin%20Wu%20Jiu%20Ge?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105710.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105700.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105647.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105625.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105614.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105532.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105418.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105401.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105356.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105330.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105318.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20Liu?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105227.200.json
+
+###
+
+GET http://localhost:3000/senders/findCount/Yan%20lIU?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 10005,      "numberOfPackage":1,   "totalWeightInKg": 1000,      "dimensionsInCM": {     "length": 450,      "width": 222,     "height":222   } }
+
+<> 2018-10-23T105219.200.json
+
+###
+
 DELETE http://localhost:3000/goods/131313?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -396,145 +539,6 @@ Content-Type: application/json
 {   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
 
 <> 2018-10-20T035519.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
-
-<> 2018-10-20T035506.200.json
-
-###
-
-POST http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10009,   "goodsName": "IphoneX",   "goodsKind": "expensive",   "freight": 38.5,   "deliveryman": {     "deliverymanName": "d1",     "phoneNumber": "15261820009"   },   "goodsLocation": "arriving at aim city" }
-
-<> 2018-10-20T035501.200.json
-
-###
-
-DELETE http://localhost:3000/goods/10006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":{"$ref":"goods","$id":10006}, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-<> 2018-10-20T023208.200.json
-
-###
-
-DELETE http://localhost:3000/goods/10006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":{"$ref":"goods","$id":10006}, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-###
-
-DELETE http://localhost:3000/goods/1006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":{"$ref":"goods","$id":10006}, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-###
-
-POST http://localhost:3000/sender?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":{"$ref":"goods","$id":10006}, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-<> 2018-10-20T022155.404.html
-
-###
-
-POST http://localhost:3000/sender?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":{"ref":"goods","id":10006}, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-<> 2018-10-20T123533.404.html
-
-###
-
-POST http://localhost:3000/sender?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id":10006, "sendersName": "Csdsr", "senderPhoneNumber": "d6", "sendersLocation":"gl6"}
-
-<> 2018-10-20T123342.404.html
-
-###
-
-POST http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006, "goodsName": "Csdsr", "deliveryman": "d6", "goodsLocation":"gl6"}
-
-<> 2018-10-20T122535.200.json
-
-###
-
-GET http://localhost:3000/details?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-19T060148.200.json
-
-###
-
-GET http://localhost:3000/senders?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-19T060144.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-19T060137.200.json
-
-###
-
-GET http://localhost:3000/receivers?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10005,   "kind": "Large goods",   "goodName": "Car",   "goodLocation": "in the highway road",   "deliveryman": "d5",   "deliverymanPhoneNumber": "Car",   "senderName": "Yan Liu",   "senderPhoneNumber": "15261820009",   "senderLocation": "BeiJing",   "receiverName": "David",   "receiverPhoneNumber": "434234235",   "receiverLocation": "XXXXXXX",   "freight": 1000,   "paymentType": "bank card" }
-
-<> 2018-10-19T060132.200.json
 
 ###
 

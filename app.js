@@ -38,6 +38,7 @@ app.put("/goods/:id/changeDeliveryman/:name/:phoneNumber",goods.changeDeliveryma
 
 app.get("/senders",senders.findAllSenders);
 app.get("/senders/:id",senders.findOneSender);
+app.get("/senders/findCount/:senderName",senders.findCount);
 app.post("/senders",senders.addSender);
 app.delete("/senders/:id",senders.deleteSender);
 

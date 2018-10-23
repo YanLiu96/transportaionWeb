@@ -22,7 +22,20 @@ router.findOneSender = (req, res) => {
             res.send(JSON.stringify(senders,null,5));
     });
 };
+router.findCount = (req,res) =>{
+    res.setHeader("Content-Type", "application/json");
+    var senderName = req.params.senderName;
+    senders.aggregate([
+        {$match:{sendersName:senderName}},
+        {$group:{_id:"$sendersName",count:{$sum:1}}}
+    ],function (err,sender) {
+        if(err)
+            res.json({ message: "NO Information!", errmsg : err } );
+        else
+            res.send(JSON.stringify(sender,null,5));
 
+    });
+};
 router.addSender = (req, res) => {
     res.setHeader("Content-Type", "application/json");
     var sender = new senders();
