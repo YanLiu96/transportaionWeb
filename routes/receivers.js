@@ -31,8 +31,8 @@ router.addReceiver = (req, res) => {
     receiver._id = req.body._id;
     receiver.receiverName = req.body.receiverName;
     receiver.receiverPhoneNumber = req.body.receiverPhoneNumber;
-    receiver.receiverAddress =req.body.receiverLocation;
-    receiver.receiverCountry =req.body.receiverLocation;
+    receiver.receiverAddress =req.body.receiverAddress;
+    receiver.receiverCountry =req.body.receiverCountry;
     receiver.postcode =req.body.postcode;
     receiver.save(function(err) {
         if (err)
