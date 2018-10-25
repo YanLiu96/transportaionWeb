@@ -53,4 +53,7 @@ The demo url is:
 ##### 3.6.1.  `input keyword it will find the good or sender or receivers name whic contain keyword no matter upcase and return the combination details`	
 
 ### 4.	Project Test
+#### In the Terminal,Print $npm test,and the test will run.
+`warning:`
+I use the orginal database data for the test of project. That menas please make sure you don't delete the data in the database. If you add data,you should delete it `Or`you can open the tst file,and edit the code :expect(res.body.length).to.equal(5); If you add one change 5 to 6.Because i don't want to create a new database to test,so i use orginal database which i expect the number of records is equal to orginal database data which is 5.
 
