@@ -6,7 +6,7 @@
 I deploy it on the Heroku, use Github as the deployment method, use mlab as the cloud database,and record demo video which upload at YouTube.
 
 The website url is : https://express-transportation.herokuapp.com/
-The demo url is:
+The demo url is:https://youtu.be/XfYGKxZ4FXQ
 
 ### 2.	Structure(contains file)
 #### 2.1.	It uses Git to control project version and push to the Github: https://github.com/YanLiu96/transportationWeb
