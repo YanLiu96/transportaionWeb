@@ -83,7 +83,7 @@ router.changeDeliveryman = (req, res) => {
             res.json({ message: " NO found!", errmsg : err } );
         else {
             goods.deliveryman.deliverymanName = req.params.name;
-            goods.deliveryman.phoneNumbere = req.params.phoneNumber;
+            goods.deliveryman.phoneNumber = req.params.phoneNumber;
             goods.save(function (err) {
                 if (err)
                     res.json({ message: "NOT change!", errmsg : err } );
