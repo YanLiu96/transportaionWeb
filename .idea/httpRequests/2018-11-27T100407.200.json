@@ -1,0 +1,9 @@
+{
+  "message": "Good Successfully Added!",
+  "data": {
+    "_id": 2121,
+    "goodsName": "safsaf",
+    "freight": 9.8,
+    "goodsKind": "expensive"
+  }
+}

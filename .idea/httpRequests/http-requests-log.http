@@ -1,3 +1,25 @@
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 2121,   "goodsName": "safsaf",   "goodsKind": "expensive",   "freight": 9.8 }
+
+<> 2018-11-27T100407.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "_id": 32323,   "goodsName": "safsaf",   "goodsKind": "expensive",   "freight": 9.8 }
+
+<> 2018-11-27T095746.200.json
+
+###
+
 DELETE http://localhost:3000/shipmentDetails/10006?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -523,28 +545,6 @@ Content-Type: application/json
 {   "_id": 10006,   "senderMethod": "UPS",   "sendersName": "WAWA",   "senderPhoneNumber": "434343",   "senderAddress": "ireland",   "postcode": "Xadada",   "sendDate": "2018-10-25" }
 
 <> 2018-10-25T025943.200.json
-
-###
-
-POST http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T025914.200.json
-
-###
-
-GET http://localhost:3000/receivers/10006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T025740.200.json
 
 ###
 

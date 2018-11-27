@@ -43,6 +43,8 @@ router.addGood = (req, res) => {
     good._id = req.body._id;
     good.goodsName = req.body.goodsName;
     good.deliveryman = req.body.deliveryman;
+    good.freight= req.body.freight;
+    good.goodsKind =req.body.goodsKind;
     good.goodsLocation =req.body.goodsLocation;
     good.save(function(err) {
         if (err)
