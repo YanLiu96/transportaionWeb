@@ -1,13 +1,12 @@
 let mongoose = require("mongoose");
 let GoodSchema = new mongoose.Schema({
-    _id:Number,
+    //senderId:Number,
+   // receiverID:Number,
     goodsName: String,
     goodsKind:String,
     freight:Number,
-    deliveryman: {
-        deliverymanName:String,
-        phoneNumber:String,
-    },
+    deliveryman:String,
+    deliverymanUpvotes:{type: Number, default: 0},
     goodsLocation: String
 },{versionKey:false},
 { collection: "goods" });

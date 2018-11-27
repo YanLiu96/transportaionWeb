@@ -1,0 +1,12 @@
+{
+  "message": "Good Location Successfully Change!",
+  "data": {
+    "deliverymanUpvotes": 0,
+    "_id": "5bfd381109434109a34fde3f",
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "riverwalker"
+  }
+}

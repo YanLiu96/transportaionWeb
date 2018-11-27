@@ -1,3 +1,58 @@
+PUT http://localhost:3000/goods/5bfd381109434109a34fde3f/changeLocation/riverwalker?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-11-27T122958.200.json
+
+###
+
+GET http://localhost:3000/goods/5bfd381109434109a34fde3f?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-11-27T122758.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-11-27T122657.200.json
+
+###
+
+DELETE http://localhost:3000/goods/5bfd37ef09434109a34fde3e?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-11-27T122650.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-11-27T122623.200.json
+
+###
+
 POST http://localhost:3000/goods?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -490,61 +545,6 @@ Content-Type: application/json
 {   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
 
 <> 2018-10-25T030108.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T030047.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T030028.200.json
-
-###
-
-POST http://localhost:3000/shipmentDetails?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T030022.200.json
-
-###
-
-POST http://localhost:3000/receivers?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "receiverName": "David",   "receiverPhoneNumber": "0833863840",   "receiverCountry": "Ireland",   "receiverAddress": "Waterford",   "postcode": "DDD D323" }
-
-<> 2018-10-25T030000.200.json
-
-###
-
-POST http://localhost:3000/senders?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "senderMethod": "UPS",   "sendersName": "WAWA",   "senderPhoneNumber": "434343",   "senderAddress": "ireland",   "postcode": "Xadada",   "sendDate": "2018-10-25" }
-
-<> 2018-10-25T025943.200.json
 
 ###
 

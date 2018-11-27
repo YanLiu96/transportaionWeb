@@ -33,7 +33,7 @@ app.get("/goods/:id",goods.findOneGood);
 app.post("/goods",goods.addGood);
 app.delete("/goods/:id",goods.deleteGood);
 app.put("/goods/:id/changeLocation/:location", goods.changeGoodLocation);
-app.put("/goods/:id/changeDeliveryman/:name/:phoneNumber",goods.changeDeliveryman);
+//app.put("/goods/:id/changeDeliveryman/:name/:phoneNumber",goods.changeDeliveryman);
 
 
 app.get("/senders",senders.findAllSenders);

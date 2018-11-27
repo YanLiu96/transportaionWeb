@@ -40,7 +40,7 @@ router.findOneGood = (req, res) => {
 router.addGood = (req, res) => {
     res.setHeader("Content-Type", "application/json");
     var good = new goods();
-    good._id = req.body._id;
+    //good._id = req.body._id;
     good.goodsName = req.body.goodsName;
     good.deliveryman = req.body.deliveryman;
     good.freight= req.body.freight;
@@ -79,6 +79,39 @@ router.changeGoodLocation = (req, res) => {
     });
 };
 
+function getTotalVotes(array) {
+    let totalVotes = 0;
+    array.forEach(function(obj) { totalVotes += obj.deliverymanUpvotes; });
+    return totalVotes;
+}
+
+router.incrementUpvotes = (req, res) => {
+
+    goods.findById(req.params.id, function(err,goods) {
+        if (err)
+            res.json({ message: 'Good NOT Found!', errmsg : err } );
+        else {
+            goods.deliverymanUpvotes += 1;
+            goods.save(function (err) {
+                if (err)
+                    res.json({ message: 'Deliveryman NOT UpVoted!', errmsg : err } );
+                else
+                    res.json({ message: 'Deliveryman Successfully Upvoted!', data: goods });
+            });
+        }
+    });
+}
+
+router.findTotalVotes = (req, res) => {
+
+    goods.find(function(err, goods) {
+        if (err)
+            res.send(err);
+        else
+            res.json({ totalvotes : getTotalVotes(goods) });
+    });
+}
+/*
 router.changeDeliveryman = (req, res) => {
     goods.findById(req.params.id, function(err,goods) {
         if (err)
@@ -94,5 +127,7 @@ router.changeDeliveryman = (req, res) => {
             });
         }
     });
+
 };
+*/
 module.exports = router;
