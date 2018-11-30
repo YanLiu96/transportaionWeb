@@ -1,6 +1,8 @@
 /eslint no-unused-vars: "off" /;
 var createError = require("http-errors");
 var express = require("express");
+var passport = require('passport');
+var session = require('express-session');
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
@@ -12,6 +14,7 @@ const senders = require("./routes/senders");
 const receivers = require("./routes/receivers");
 const details = require("./routes/details");
 const fuzzySearch = require("./routes/fuzzySearch");
+var auth = require('./routes/auth');
 const shipmentDetails = require("./routes/shipmentDetails");
 var app = express();
 // view engine setup
@@ -25,8 +28,19 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+
+app.use(session({
+    secret: 's3cr3t',
+    resave: true,
+    saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
+
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+app.use('/auth', auth);
 app.get('/donations/findTotalVotes', goods.findTotalVotes);
 app.get("/goods",goods.findAllGoods);
 app.get("/goods/:id",goods.findOneGood);
