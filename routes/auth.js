@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var passportFacebook = require('../auth/facebook');
 //var passportTwitter = require('../auth/twitter');
-//var passportGoogle = require('../auth/google');
+var passportGoogle = require('../auth/google');
 //var passportGitHub = require('../auth/github');
 /* LOGIN ROUTER */
 router.get('/login', function(req, res, next) {
@@ -38,7 +38,7 @@ router.get('/twitter/callback',
     });
 
 /* GOOGLE ROUTER */
-/*
+
 router.get('/google',
     passportGoogle.authenticate('google', { scope: 'https://www.google.com/m8/feeds' }));
 

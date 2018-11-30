@@ -3,9 +3,9 @@ var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 var User = require('../models/User');
 
 passport.use(new GoogleStrategy({
-        clientID: "591307876438-4nmmm817vks785u467lo22kss40kqno2.apps.googleusercontent.com",
-        clientSecret: "BagENe4LxG_PZ_qz2oFX7Aok",
-        callbackURL: "http://127.0.0.1:3000/auth/google/callback"
+        clientID: "916453518762-fmceba3use5at73lvncmj5hhn7unc96g.apps.googleusercontent.com",
+        clientSecret: "yQkIaEkga0RoI0q5xzArEULo",
+        callbackURL: "https://express-transportation.herokuapp.com/auth/google/callbacks"
     },
     function(accessToken, refreshToken, profile, done) {
         User.findOrCreate({ userid: profile.id }, { name: profile.displayName,userid: profile.id }, function (err, user) {
