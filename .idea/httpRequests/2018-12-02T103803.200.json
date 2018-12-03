@@ -1,0 +1,12 @@
+{
+  "message": "Deliveryman Successfully Upvoted!",
+  "data": {
+    "deliverymanUpvotes": 2,
+    "_id": "5c045b4dcdb62a0016d8fb06",
+    "goodsName": "IphoneX",
+    "deliveryman": "D2",
+    "freight": 21,
+    "goodsKind": "Fragile",
+    "goodsLocation": "China"
+  }
+}

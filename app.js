@@ -43,7 +43,8 @@ app.use(passport.session());
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use('/auth', auth);
-app.get('/donations/findTotalVotes', goods.findTotalVotes);
+
+app.get('/goods/findTotalVotes', goods.findTotalVotes);
 app.get("/goods",goods.findAllGoods);
 app.get("/goods/:id",goods.findOneGood);
 app.post("/goods",goods.addGood);

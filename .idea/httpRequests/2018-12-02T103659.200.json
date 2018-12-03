@@ -1,0 +1,20 @@
+[
+  {
+    "deliverymanUpvotes": 7,
+    "_id": "5bfd381109434109a34fde3f",
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "riverwalker"
+  },
+  {
+    "deliverymanUpvotes": 0,
+    "_id": "5c045b4dcdb62a0016d8fb06",
+    "goodsName": "IphoneX",
+    "deliveryman": "D2",
+    "freight": 21,
+    "goodsKind": "Fragile",
+    "goodsLocation": "China"
+  }
+]

@@ -45,11 +45,11 @@ router.get('/google',
 router.get('/google/callback',
     passportGoogle.authenticate('google', { failureRedirect: '/login' }),
     function(req, res) {
-        res.redirect('/');
+        res.redirect('/goods');
     });
 
 /* GITHUB ROUTER */
-/*
+
 router.get('/github',
     passportGitHub.authenticate('github', { scope: [ 'user:email' ] }));
 
@@ -59,5 +59,4 @@ router.get('/github/callback',
         // Successful authentication, redirect home.
         res.redirect('/');
     });
-*/
 module.exports = router;
