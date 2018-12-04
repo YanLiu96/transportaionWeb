@@ -20,6 +20,7 @@ passport.use(new GoogleStrategy({
         callbackURL: "https://express-transportation.herokuapp.com/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
+
     User.findOne({userid:profile.id}).then((currentUser)=>{
         if(currentUser){
             console.log('user is '+currentUser)

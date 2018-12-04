@@ -68,15 +68,15 @@
     <session id="1297532411">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="86" />
-          <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="14" />
+          <entry key="project.closed" value="87" />
+          <entry key="project.open.time.0" value="11" />
+          <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="15" />
           <entry key="project.open.time.4" value="35" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="86" />
+          <entry key="project.opened" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,12 +111,12 @@
         <counts>
           <entry key="JSON" value="481" />
           <entry key="Jade" value="70" />
-          <entry key="JavaScript" value="8736" />
+          <entry key="JavaScript" value="8737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="8736" />
+          <entry key="js" value="8737" />
           <entry key="json" value="481" />
           <entry key="pug" value="70" />
         </counts>
@@ -181,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth/google.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+            <state relative-caret-position="345">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -199,8 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth/github.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -217,8 +217,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth/facebook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -355,7 +355,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
@@ -366,17 +366,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="transportation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,6 +387,17 @@
               <item name="transportation" type="b2602c69:ProjectViewProjectNode" />
               <item name="transportation" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="transportation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -2314,11 +2314,13 @@
       <workItem from="1543931453400" duration="550000" />
       <workItem from="1543932054186" duration="27000" />
       <workItem from="1543932377954" duration="142000" />
+      <workItem from="1543932764838" duration="59000" />
+      <workItem from="1543932826407" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167993000" />
+    <option name="totallyTimeSpent" value="168064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2330,12 +2332,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
-      <window_info id="npm" order="1" sideWeight="0.124657534" side_tool="true" visible="true" weight="0.20366456" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.8753425" visible="true" weight="0.20366456" />
+      <window_info id="npm" order="1" sideWeight="0.12739725" side_tool="true" visible="true" weight="0.20366456" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.87260276" visible="true" weight="0.20366456" />
       <window_info id="Structure" order="3" sideWeight="0.50344825" side_tool="true" weight="0.14587738" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49496797" weight="0.2849315" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.36505032" side_tool="true" weight="0.41369864" />
@@ -2588,6 +2590,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auth/google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auth/profile-routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -2637,24 +2646,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/google.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth/github.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auth/facebook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        <state relative-caret-position="240">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
         </state>
       </provider>
     </entry>

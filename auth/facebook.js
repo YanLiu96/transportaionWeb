@@ -8,9 +8,20 @@ passport.use(new FacebookStrategy({
         callbackURL: "https://express-transportation.herokuapp.com/auth/facebook/callback"
     },
     function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({name: profile.displayName}, {name: profile.displayName,userid: profile.id}, function(err, user) {
-            if (err) { return done(err); }
-            done(null, user);
+        User.findOne({userid:profile.id}).then((currentUser)=>{
+            if(currentUser){
+                console.log('user is '+currentUser)
+                done(null,currentUser)
+            }else{
+                new User({
+                    name:profile.displayName,
+                    userid:profile.id
+                }).save().then((newUser)=> {
+                        console.log('new user created' + newUser);
+                        done(null, newUser)
+                    }
+                )
+            }
         });
     }
 ));
