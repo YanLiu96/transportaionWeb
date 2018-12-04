@@ -16,6 +16,7 @@ const details = require("./routes/details");
 const fuzzySearch = require("./routes/fuzzySearch");
 var auth = require('./routes/auth');
 const shipmentDetails = require("./routes/shipmentDetails");
+const profileRoutes = require('./auth/profile-routes');
 var app = express();
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
@@ -43,6 +44,7 @@ app.use(passport.session());
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use('/auth', auth);
+app.use('/profile',profileRoutes)
 
 app.get('/goods/findTotalVotes', goods.findTotalVotes);
 app.get("/goods",goods.findAllGoods);

@@ -2,15 +2,40 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 var User = require('../models/User');
 
+passport.serializeUser((user,done)=>{
+    done(null,user.id)
+});
+
+passport.deserializeUser((id,done)=>{
+    User.findById(id).then((user)=>{
+        done(null,user)
+    })
+
+});
+
+
 passport.use(new GoogleStrategy({
         clientID: "916453518762-fmceba3use5at73lvncmj5hhn7unc96g.apps.googleusercontent.com",
         clientSecret: "yQkIaEkga0RoI0q5xzArEULo",
-        callbackURL: "https://express-transportation.herokuapp.com/auth/google/callback"
+        callbackURL: "/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({ userid: profile.id }, { name: profile.displayName,userid: profile.id }, function (err, user) {
-            return done(err, user);
-        });
+    User.findOne({userid:profile.id}).then((currentUser)=>{
+        if(currentUser){
+            console.log('user is '+currentUser)
+            done(null,currentUser)
+        }else{
+            new User({
+                name:profile.displayName,
+                userid:profile.id
+            }).save().then((newUser)=> {
+                    console.log('new user created' + newUser);
+                    done(null, newUser)
+                }
+            )
+        }
+    });
+
     }
 ));
 module.exports = passport;

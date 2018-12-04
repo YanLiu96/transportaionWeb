@@ -19,10 +19,11 @@ router.get('/facebook',
     passportFacebook.authenticate('facebook'));
 
 router.get('/facebook/callback',
-    passportFacebook.authenticate('facebook', { failureRedirect: '/login' }),
+    passportFacebook.authenticate('facebook'),
     function(req, res) {
         // Successful authentication, redirect home.
-        res.redirect('/');
+        res.send(req.user)
+       // res.redirect('/');
     });
 /* TWITTER ROUTER */
 
@@ -40,12 +41,13 @@ router.get('/twitter/callback',
 /* GOOGLE ROUTER */
 
 router.get('/google',
-    passportGoogle.authenticate('google', { scope: 'https://www.google.com/m8/feeds' }));
-
+    //passportGoogle.authenticate('google', { scope: 'https://www.google.com/m8/feeds' }));
+    passportGoogle.authenticate('google', { scope:['profile']}));
 router.get('/google/callback',
     passportGoogle.authenticate('google', { failureRedirect: '/login' }),
     function(req, res) {
-        res.redirect('/goods');
+        res.redirect('/profile');
+        //res.send(req.user)
     });
 
 /* GITHUB ROUTER */
