@@ -15,7 +15,6 @@ const receivers = require("./routes/receivers");
 const details = require("./routes/details");
 const fuzzySearch = require("./routes/fuzzySearch");
 var auth = require('./routes/auth');
-const shipmentDetails = require("./routes/shipmentDetails");
 const profileRoutes = require('./auth/profile-routes');
 var app = express();
 // view engine setup
@@ -75,11 +74,6 @@ app.get("/details/:id",details.findDetailsByID);
 
 app.get("/fuzzySearch/:keyword",fuzzySearch.FuzzySearchGoodOrSenderOrReceiverName);
 
-app.get("/shipmentDetails",shipmentDetails.findAllDetails);
-app.get("/shipmentDetails/:id",shipmentDetails.findOneDetails);
-app.get("/goodAndShipment/:id",shipmentDetails.findGoodAndShipment);
-app.post("/shipmentDetails",shipmentDetails.addDetails);
-app.delete("/shipmentDetails/:id",shipmentDetails.deleteDetails);
 
 
 // catch 404 and forward to error handler

@@ -1,7 +1,5 @@
 let mongoose = require("mongoose");
 let GoodSchema = new mongoose.Schema({
-    //senderId:Number,
-   // receiverID:Number,
     goodsName: String,
     goodsKind:String,
     freight:Number,

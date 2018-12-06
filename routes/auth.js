@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var passportFacebook = require('../auth/facebook');
-//var passportTwitter = require('../auth/twitter');
 var passportGoogle = require('../auth/google');
 var passportGitHub = require('../auth/github');
 /* LOGIN ROUTER */
@@ -23,20 +22,9 @@ router.get('/facebook/callback',
     function(req, res) {
         // Successful authentication, redirect home.
         res.send(req.user)
-       // res.redirect('/');
+        res.redirect('https://exprees-transportation-vue.firebaseapp.com/');
     });
-/* TWITTER ROUTER */
 
-/*
-router.get('/twitter',
-    passportTwitter.authenticate('twitter'));
-
-router.get('/twitter/callback',
-    passportTwitter.authenticate('twitter', { failureRedirect: '/login' }),
-    function(req, res) {
-        // Successful authentication, redirect home.
-        res.redirect('/');
-    });
 
 /* GOOGLE ROUTER */
 
@@ -46,7 +34,7 @@ router.get('/google',
 router.get('/google/callback',
     passportGoogle.authenticate('google', { failureRedirect: '/login' }),
     function(req, res) {
-        res.redirect('/profile');
+        res.redirect('https://exprees-transportation-vue.firebaseapp.com/');
         //res.send(req.user)
     });
 
@@ -59,6 +47,6 @@ router.get('/github/callback',
     passportGitHub.authenticate('github', { failureRedirect: '/login' }),
     function(req, res) {
         // Successful authentication, redirect home.
-        res.redirect('/');
+        res.redirect('https://exprees-transportation-vue.firebaseapp.com/');
     });
 module.exports = router;
