@@ -1,0 +1,12 @@
+{
+  "message": "Good Successfully Added!",
+  "data": {
+    "deliverymanUpvotes": 0,
+    "_id": "5c09bb020808bc1ed7db2e85",
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "At WIT"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "deliverymanUpvotes": 0,
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "At WIT"
+  },
+  {
+    "deliverymanUpvotes": 0,
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "At WIT"
+  },
+  {
+    "deliverymanUpvotes": 0,
+    "goodsName": "name1",
+    "deliveryman": "D1",
+    "freight": 12,
+    "goodsKind": "expensive",
+    "goodsLocation": "At WIT"
+  }
+]

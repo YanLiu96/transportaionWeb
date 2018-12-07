@@ -1,3 +1,147 @@
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121504.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121409.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121354.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121301.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121250.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+###
+
+GET http://localhost:3000/goods/10001?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+###
+
+GET http://localhost:3000/goods/?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121159.200.json
+
+###
+
+GET http://localhost:3000/goods/?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+###
+
+GET http://localhost:3000/goods/1001?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+###
+
+GET http://localhost:3000/goods/10001?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121126.200.json
+
+###
+
+POST http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id":10001,"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121121.200.json
+
+###
+
+GET http://localhost:3000/goods?keyword=ex
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"goodsName": "name1",   "goodsKind": "expensive",   "freight": 12,"deliveryman":"D1","deliverymanUpvotes":0,"goodsLocation":"At WIT"}
+
+<> 2018-12-07T121037.200.json
+
+###
+
 GET http://localhost:3000/goods/findTotalVotes?keyword=ex
 Accept: application/json
 Cache-Control: no-cache
@@ -371,160 +515,6 @@ Content-Type: application/json
 {   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
 
 <> 2018-10-25T032150.404.html
-
-###
-
-GET http://localhost:3000/goods/10006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T032113.200.json
-
-###
-
-PUT http://localhost:3000/goods/10006/changeDeliveryman/D6/1111111111?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T032101.200.json
-
-###
-
-PUT http://localhost:3000/goods/10006/changeLocation/WIT?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T032032.200.json
-
-###
-
-GET http://localhost:3000/goods/10006?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T031946.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T031943.200.json
-
-###
-
-POST http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "goodsName": "clock",   "goodsKind": "expensive",   "freight": 9.8,   "deliveryman": {     "deliverymanName": "baojie",     "phoneNumber": "1111111"   },   "goodsLocation": "In WIT " }
-
-<> 2018-10-25T031925.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T031644.200.json
-
-###
-
-POST http://localhost:3000?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T031638.404.html
-
-###
-
-GET http://localhost:3000/shipmentDetails/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T031627.200.json
-
-###
-
-POST http://localhost:3000/shipmentDetails/?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T031618.200.json
-
-###
-
-POST http://localhost:3000/shipmetDetails?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "receiverName": "David",   "receiverPhoneNumber": "0833863840",   "receiverCountry": "Ireland",   "receiverAddress": "Waterford",   "postcode": "DDD D323" }
-
-<> 2018-10-25T031602.404.html
-
-###
-
-POST http://localhost:3000/receivers?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "receiverName": "David",   "receiverPhoneNumber": "0833863840",   "receiverCountry": "Ireland",   "receiverAddress": "Waterford",   "postcode": "DDD D323" }
-
-<> 2018-10-25T031547.200.json
-
-###
-
-POST http://localhost:3000/senders?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "senderMethod": "UPS",   "sendersName": "WAWA",   "senderPhoneNumber": "434343",   "senderAddress": "ireland",   "postcode": "Xadada",   "sendDate": "2018-10-25" }
-
-<> 2018-10-25T031526.200.json
-
-###
-
-GET http://localhost:3000/goods?keyword=ex
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "_id": 10006,   "dimensionsInCM": {     "length": 10,     "width": 10,     "height": 10   },   "numberOfPackage": "1" }
-
-<> 2018-10-25T031449.200.json
 
 ###
 

@@ -63,6 +63,26 @@ router.deleteGood = (req, res) => {
     });
 };
 
+router.editGood = (req,res)=>{
+    goods.findById(req.params.id, function(err,good) {
+        if (err)
+            res.json({ message: "Good NOT Found!", errmsg : err } );
+        else {
+            good.goodsKind = req.body.goodsKind;
+            good.goodsName = req.body.goodsName;
+            good.deliveryman=req.body.deliveryman;
+            good.deliverymanUpvotes =req.body.deliverymanUpvotes;
+            good.goodsLocation = req.body.location;
+            good.save(function (err) {
+                if (err)
+                    res.json({ message: "Good Location NOT Change!", errmsg : err } );
+                else
+                    res.json({ message: "Good Location Successfully Change!", data: goods });
+            });
+        }
+    });
+}
+
 router.changeGoodLocation = (req, res) => {
     goods.findById(req.params.id, function(err,goods) {
         if (err)
