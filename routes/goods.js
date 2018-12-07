@@ -45,6 +45,7 @@ router.addGood = (req, res) => {
     good.deliveryman = req.body.deliveryman;
     good.freight= req.body.freight;
     good.goodsKind =req.body.goodsKind;
+    good.deliverymanUpvotes = req.body.deliverymanUpvotes;
     good.goodsLocation =req.body.goodsLocation;
     good.save(function(err) {
         if (err)
@@ -69,10 +70,11 @@ router.editGood = (req,res)=>{
             res.json({ message: "Good NOT Found!", errmsg : err } );
         else {
             good.goodsKind = req.body.goodsKind;
+            good.freight = req.body.freight;
             good.goodsName = req.body.goodsName;
             good.deliveryman=req.body.deliveryman;
             good.deliverymanUpvotes =req.body.deliverymanUpvotes;
-            good.goodsLocation = req.body.location;
+            good.goodsLocation = req.body.goodsLocation;
             good.save(function (err) {
                 if (err)
                     res.json({ message: "Good Location NOT Change!", errmsg : err } );

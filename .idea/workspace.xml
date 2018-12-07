@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109015f6-856f-411a-9b45-ee88ea73fc04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031449.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031526.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031547.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031602.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031618.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031627.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031638.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031644.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031925.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031943.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T031946.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T032032.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T032101.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-25T032113.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/routes/goods-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/routes/goods-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/goods.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,16 +66,16 @@
     <session id="1297532411">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="104" />
+          <entry key="project.closed" value="105" />
           <entry key="project.open.time.0" value="14" />
           <entry key="project.open.time.1" value="19" />
           <entry key="project.open.time.2" value="6" />
-          <entry key="project.open.time.3" value="15" />
+          <entry key="project.open.time.3" value="17" />
           <entry key="project.open.time.4" value="39" />
           <entry key="project.open.time.5" value="8" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="104" />
+          <entry key="project.opened" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -126,12 +110,12 @@
         <counts>
           <entry key="JSON" value="520" />
           <entry key="Jade" value="70" />
-          <entry key="JavaScript" value="9330" />
+          <entry key="JavaScript" value="9387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="9330" />
+          <entry key="js" value="9387" />
           <entry key="json" value="520" />
           <entry key="pug" value="70" />
         </counts>
@@ -213,11 +197,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="310">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -231,11 +215,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="5" column="89" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="89" />
+            <state relative-caret-position="458">
+              <caret line="76" column="56" lean-forward="true" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -300,7 +284,6 @@
         <option value="$PROJECT_DIR$/views/error.pug" />
         <option value="$PROJECT_DIR$/views/index.pug" />
         <option value="$PROJECT_DIR$/views/user.pug" />
-        <option value="$PROJECT_DIR$/routes/goods.js" />
         <option value="$PROJECT_DIR$/views/login.pug" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/auth/profile-routes.js" />
@@ -312,6 +295,7 @@
         <option value="$PROJECT_DIR$/models/goods.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/routes/goods-test.js" />
+        <option value="$PROJECT_DIR$/routes/goods.js" />
       </list>
     </option>
   </component>
@@ -2387,11 +2371,13 @@
       <workItem from="1544198231664" duration="526000" />
       <workItem from="1544198847806" duration="20000" />
       <workItem from="1544201306765" duration="19000" />
+      <workItem from="1544204748077" duration="19000" />
+      <workItem from="1544205947036" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182955000" />
+    <option name="totallyTimeSpent" value="183097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2403,12 +2389,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
-      <window_info id="npm" order="1" sideWeight="0.27148703" side_tool="true" visible="true" weight="0.19732206" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.72851294" visible="true" weight="0.19732206" />
+      <window_info id="npm" order="1" sideWeight="0.27421555" side_tool="true" visible="true" weight="0.19732206" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7257844" visible="true" weight="0.19732206" />
       <window_info id="Structure" order="3" sideWeight="0.50344825" side_tool="true" weight="0.14587738" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49496797" weight="0.34379265" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.36505032" side_tool="true" weight="0.41369864" />
@@ -2703,17 +2689,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/goods.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="89" />
+        <state relative-caret-position="310">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="458">
+          <caret line="76" column="56" lean-forward="true" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
         </state>
       </provider>
     </entry>
