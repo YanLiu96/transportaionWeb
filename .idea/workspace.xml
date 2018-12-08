@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109015f6-856f-411a-9b45-ee88ea73fc04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="109015f6-856f-411a-9b45-ee88ea73fc04" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -381,8 +377,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="612" />
-    <option name="y" value="74" />
+    <option name="x" value="201" />
+    <option name="y" value="34" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
@@ -2439,12 +2435,12 @@
       <workItem from="1544274619346" duration="8000" />
       <workItem from="1544278593136" duration="1751000" />
       <workItem from="1544280357364" duration="751000" />
-      <workItem from="1544281741262" duration="336000" />
+      <workItem from="1544281741262" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186021000" />
+    <option name="totallyTimeSpent" value="186311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2456,14 +2452,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="74" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
+    <frame x="201" y="34" width="1440" height="825" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5006954" side_tool="true" weight="0.17547569" />
       <window_info id="npm" order="1" sideWeight="0.17791411" side_tool="true" visible="true" weight="0.19732206" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.8220859" visible="true" weight="0.19732206" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.8220859" visible="true" weight="0.19732206" />
       <window_info id="Structure" order="3" sideWeight="0.50344825" side_tool="true" weight="0.14587738" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49496797" visible="true" weight="0.3328786" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49496797" visible="true" weight="0.3328786" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.36505032" side_tool="true" weight="0.41369864" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32465753" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
