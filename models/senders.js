@@ -1,6 +1,5 @@
-let mongoose = require("mongoose");
+let mongoose = require('mongoose');
 let SenderSchema = new mongoose.Schema({
-    _id:Number,
     senderMethod:String,
     sendersName: String,
     senderPhoneNumber: String,
@@ -8,6 +7,6 @@ let SenderSchema = new mongoose.Schema({
     postcode:String,
     sendDate:String
 },{versionKey:false},
-{ collection: "senders" });
+{ collection: 'senders' });
 
-module.exports = mongoose.model("senders", SenderSchema);
+module.exports = mongoose.model('senders', SenderSchema);

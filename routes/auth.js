@@ -21,7 +21,7 @@ router.get('/facebook/callback',
     passportFacebook.authenticate('facebook'),
     function(req, res) {
         // Successful authentication, redirect home.
-        res.send(req.user)
+        res.send(req.user);
         res.redirect('https://exprees-transportation-vue.firebaseapp.com/');
     });
 

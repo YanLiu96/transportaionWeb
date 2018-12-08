@@ -4,7 +4,7 @@ let UserSchema = new mongoose.Schema({
     name: String,
     userid: String,
     updated_at: { type: Date, default: Date.now },
-},{ collection: "User" });
+},{ collection: 'User' });
 
 //UserSchema.statics.findOrCreate = require("find-or-create");
 

@@ -1,4 +1,4 @@
-let mongoose = require("mongoose");
+let mongoose = require('mongoose');
 let GoodSchema = new mongoose.Schema({
     goodsName: String,
     goodsKind:String,
@@ -7,6 +7,6 @@ let GoodSchema = new mongoose.Schema({
     deliverymanUpvotes:{type: Number, default: 0},
     goodsLocation: String
 },{versionKey:false},
-{ collection: "goods" });
+{ collection: 'goods' });
 
-module.exports = mongoose.model("goods", GoodSchema);
+module.exports = mongoose.model('goods', GoodSchema);
